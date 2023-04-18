@@ -3,7 +3,7 @@
 	"glossary": {
 		"rule-box-concat": [ { "language": "en-US", "text": "or" } ]
 	},
-	"quest-book": {
+	"quest-book": [ {
 		"title": [ { "language": "en-US", "text": "Ancient Forest" } ],
 		"short-title": [ { "language": "en-US", "text": "AF/QB" } ],
 		"version": "12368628163438241247",
@@ -211,5 +211,5 @@
 				]
 			}
 		]
-	}
+	} ]
 }
