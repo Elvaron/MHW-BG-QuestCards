@@ -1,0 +1,215 @@
+{
+	"copyright": [ { "language": "en-US", "text": "© CAPCOM" } ],
+	"glossary": {
+		"rule-box-concat": [ { "language": "en-US", "text": "or" } ]
+	},
+	"quest-book": {
+		"title": [ { "language": "en-US", "text": "Ancient Forest" } ],
+		"short-title": [ { "language": "en-US", "text": "AF/QB" } ],
+		"version": "12368628163438241247",
+		"quests": [
+			{
+				"target": [ { "language": "en-US", "text": "Great Jagras" } ],
+				"kind": [ { "language": "en-US", "text": "Assigned Quest" } ],
+				"difficulty": 1,
+				"time limit": 35,
+				"scoutfly level": "2-5",
+				"starting": [ 1 ],
+				"layout": {
+					"monster": {
+						"x": 4,
+						"y": 3,
+						"facing": 5
+					},
+					"players": [
+						{
+							"x": 1,
+							"y": 6
+						},
+						{
+							"x": 3,
+							"y": 6
+						},
+						{
+							"x": 4,
+							"y": 6
+						},
+						{
+							"x": 6,
+							"y": 6
+						}
+					],
+					"terrain": [
+						{
+							"type": "bush",
+							"x": 2,
+							"y": 4
+						},
+						{
+							"type": "bush",
+							"x": 5,
+							"y": 4
+						}
+					]
+				}
+			},
+			{
+				"target": [ { "language": "en-US", "text": "Great Jagras" } ],
+				"kind": [ { "language": "en-US", "text": "Investigation Quest" } ],
+				"difficulty": 2,
+				"time limit": 30,
+				"scoutfly level": "3-6",
+				"starting": [ 2, 3, 4, 5 ],
+				"layout": {
+					"monster": {
+						"x": 4,
+						"y": 3,
+						"facing": 5
+					},
+					"players": [
+						{
+							"x": 1,
+							"y": 6
+						},
+						{
+							"x": 3,
+							"y": 6
+						},
+						{
+							"x": 4,
+							"y": 6
+						},
+						{
+							"x": 6,
+							"y": 6
+						}
+					],
+					"terrain": [
+						{
+							"type": "bush",
+							"x": 2,
+							"y": 4
+						},
+						{
+							"type": "bush",
+							"x": 5,
+							"y": 4
+						},
+						{
+							"type": "pond",
+							"x": 2,
+							"y": 2
+						},
+						{
+							"type": "pond",
+							"x": 2,
+							"y": 3
+						}
+					]
+				}
+			},
+			{
+				"target": [ { "language": "en-US", "text": "Great Jagras" } ],
+				"kind": [ { "language": "en-US", "text": "Tempered Investigation Quest" } ],
+				"difficulty": 3,
+				"time limit": 30,
+				"scoutfly level": "4-7",
+				"starting": [ 2, 3, 4, 5 ],
+				"layout": {
+					"monster": {
+						"x": 4,
+						"y": 3,
+						"facing": 5
+					},
+					"players": [
+						{
+							"x": 1,
+							"y": 6
+						},
+						{
+							"x": 3,
+							"y": 6
+						},
+						{
+							"x": 4,
+							"y": 6
+						},
+						{
+							"x": 6,
+							"y": 6
+						}
+					],
+					"terrain": [
+						{
+							"type": "bush",
+							"x": 2,
+							"y": 4
+						},
+						{
+							"type": "bush",
+							"x": 5,
+							"y": 4
+						},
+						{
+							"type": "pond",
+							"x": 2,
+							"y": 2
+						},
+						{
+							"type": "pond",
+							"x": 2,
+							"y": 3
+						},
+						{
+							"type": "pond",
+							"x": 4,
+							"y": 2
+						},
+						{
+							"type": "pond",
+							"x": 5,
+							"y": 2
+						},
+						{
+							"type": "pond",
+							"x": 4,
+							"y": 5
+						},
+						{
+							"type": "pond",
+							"x": 5,
+							"y": 5
+						},
+						{
+							"type": "rock",
+							"x": 1,
+							"y": 4
+						},
+						{
+							"type": "rock",
+							"x": 6,
+							"y": 3
+						}
+					]
+				}
+			}
+		],
+		"cards": [
+			{
+				"number": 1,
+				"page": 6,
+				"title": [ { "language": "en-US", "text": "Assigned Starting Point" } ],
+				"title-rule": [ { "language": "en-US", "text": "If starting the adventure here, the group gains 1 potion." } ],
+				"flavor": [ { "language": "en-US", "text": "The shoreline near the Southwest Camp basks in the overhead sun, bright light reflecting from the shallow pools where Kestodon and Aptonoth water. Ahead you see the entrance to the Ancient Forest, formed by an arch of thick boughs, yawning open like a gaping maw... the sounds from the world behind you fade away to silence as you step under the rich green canopy, leaving an all-too-brief sense of calm, soon broken as the Scoutflies excitedly cluster around a huge footprint in the soil." } ],
+				"consequence": null,
+				"rules": [
+					{
+						"prompt": [ { "language": "en-US", "text": "Follow the Scoutflies!" } ],
+						"condition": null,
+						"rules": [ { "language": "en-US", "text": "Discard 1 time card. Gain 1 track token. Progress to entry 21." } ]
+					}
+				]
+			}
+		]
+	}
+}
