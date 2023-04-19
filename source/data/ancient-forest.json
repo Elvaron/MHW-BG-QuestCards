@@ -343,15 +343,27 @@
 	],
 	"quest-books": [
 		{
-			"name": [ { "language": "en-US", "text": "Ancient Forest" } ],
-			"short-name": [ { "language": "en-US", "text": "AF/QB" } ],
+			"name": [
+				{ "language": "en-US", "text": "Ancient Forest" },
+				{ "language": "fr-FR", "text": "Forêt Ancienne" }
+			],
+			"short-name": [
+				{ "language": "en-US", "text": "AF/QB" },
+				{ "language": "fr-FR", "text": "AF/QB" } 
+			],
 			"version": "12368628163438241247",
 			"quests": [
 				{
 					"monster-id": "great-jagras",
 					"quest-id": "great-jagras-1",
-					"quest-name": [ { "language": "en-US", "text": "Great Jagras" } ],					
-					"quest-category": [ { "language": "en-US", "text": "Assigned Quest" } ],
+					"quest-name": [
+						{ "language": "en-US", "text": "Great Jagras" },
+						{ "language": "fr-FR", "text": "Grand Jagras" } 
+					],
+					"quest-category": [
+						{ "language": "en-US", "text": "Assigned Quest" },
+						{ "language": "fr-FR", "text": "Quête Assignée" } 
+					],
 					"difficulty": 1,
 					"time-limit": 35,
 					"scoutfly-level": { "min": 2, "max": 5 },
@@ -398,8 +410,14 @@
 				{
 					"monster-id": "great-jagras",
 					"quest-id": "great-jagras-2",
-					"quest-name": [ { "language": "en-US", "text": "Great Jagras" } ],
-					"quest-category": [ { "language": "en-US", "text": "Investigation Quest" } ],
+					"quest-name": [
+						{ "language": "en-US", "text": "Great Jagras" }, 
+						{ "language": "fr-FR", "text": "Grand Jagras" } 
+					],
+					"quest-category": [
+						{ "language": "en-US", "text": "Investigation Quest" },
+						{ "language": "fr-FR", "text": "Quête Investigation" } 
+					],
 					"difficulty": 2,
 					"time-limit": 30,
 					"scoutfly-level": { "min": 3, "max": 6 },
@@ -455,8 +473,14 @@
 				{
 					"monster-id": "great-jagras",
 					"quest-id": "great-jagras-3",
-					"quest-name": [ { "language": "en-US", "text": "Great Jagras" } ],
-					"quest-category": [ { "language": "en-US", "text": "Tempered Investigation Quest" } ],
+					"quest-name": [
+						{ "language": "en-US", "text": "Great Jagras" },
+						{ "language": "fr-FR", "text": "Grand Jagras" }
+					],
+					"quest-category": [
+						{ "language": "en-US", "text": "Tempered Investigation Quest" },
+						{ "language": "fr-FR", "text": "Quête Investigation Avancée" }
+					],
 					"difficulty": 3,
 					"time-limit": 30,
 					"scoutfly-level": { "min": 4, "max": 7 },
@@ -547,13 +571,28 @@
 						{
 							"number": 1,
 							"page": 6,
-							"title": [ { "language": "en-US", "text": "Assigned Starting Point" } ],
-							"title-rule": [ { "language": "en-US", "text": "If starting the adventure here, the group gains 1 potion." } ],
-							"flavor": [ { "language": "en-US", "text": "The shoreline near the Southwest Camp basks in the overhead sun, bright light reflecting from the shallow pools where Kestodon and Aptonoth water. Ahead you see the entrance to the Ancient Forest, formed by an arch of thick boughs, yawning open like a gaping maw... the sounds from the world behind you fade away to silence as you step under the rich green canopy, leaving an all-too-brief sense of calm, soon broken as the Scoutflies excitedly cluster around a huge footprint in the soil." } ],
+							"title": [
+								{ "language": "en-US", "text": "Assigned Starting Point" },
+								{ "language": "fr-FR", "text": "Point de départ Quête assignée" }
+							],
+							"title-rule": [
+								{ "language": "en-US", "text": "If starting the adventure here, the group gains 1 potion." },
+								{ "language": "fr-FR", "text": "Si votre aventure démarre ici, le groupe gagne 1 potion." } 
+							],
+							"flavor": [
+								{ "language": "en-US", "text": "The shoreline near the Southwest Camp basks in the overhead sun, bright light reflecting from the shallow pools where Kestodon and Aptonoth water. Ahead you see the entrance to the Ancient Forest, formed by an arch of thick boughs, yawning open like a gaping maw... the sounds from the world behind you fade away to silence as you step under the rich green canopy, leaving an all-too-brief sense of calm, soon broken as the Scoutflies excitedly cluster around a huge footprint in the soil." },
+								{ "language": "fr-FR", "text": "Le rivage près du camp du sud-ouest est summergé par le soleil, la lumière vive se reflétant dans les bassins peu profonds où Kestodons et Aptonoths se rafraichissent. Devant vous, vous voyez l'entrée de la forêt ancienne, formée par une arche de branches épaisses, bâillant comme une gueule béante... les sons du monde derrière vous s'estompent dans le silence alors que vous entrez sous la riche canopée verte, laissant place à un profond sentiment de calme, qui se romp rapidement alors que les navivioles se regroupent avec enthousiasme autour d'une énorme empreinte dans le sol." }
+							],
 							"rules": [
 								{
-									"prompt": [ { "language": "en-US", "text": "Follow the Scoutflies!" } ],
-									"rules": [ { "language": "en-US", "text": "Discard 1 time card. Gain 1 track token.\r\nProgress to entry 21." } ]
+									"prompt": [
+										{ "language": "en-US", "text": "Follow the Scoutflies!" },
+										{ "language": "fr-FR", "text": "Suivez les navicioles!" }
+									],
+									"rules": [
+										{ "language": "en-US", "text": "Discard 1 time card. Gain 1 track token.\r\nProgress to entry 21." },
+										{ "language": "fr-FR", "text": "Défaussez 1 carte de temps. Gagnez 1 jeton de traque. Progressez à l'étape 21." } 
+									]
 								}
 							]
 						},
