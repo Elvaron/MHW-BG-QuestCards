@@ -1,1861 +1,2146 @@
 {
-	"copyright": [ { "language": "en-US", "text": "© CAPCOM" } ],
-	"glossary": {
-		"rule-box-concat": [ { "language": "en-US", "text": "or" } ]
-	},
-	"behavior-decks": [
-		{
-			"monster-id": "great-jagras",
-			"base-deck": [
-				{
-					"name": [ { "language": "en-US", "text": "Heavy Bite" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 545/632" } ],
-					"target": "close",
-					"part": "head",
-					"actions": [
-						{
-							"type": "move",
-							"movement": { "front": 2 }
-						},
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "front": true },
-							"range": 1,
-							"dodge": 2,
-							"damage": 6,
-							"element": "physical"
-						}
-					],
-					"activation": {
-						"hunters": 1,
-						"cards": 3
-					}
-				},
-				{
-					"name": [ { "language": "en-US", "text": "Head Slam" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 546/632" } ],
-					"target": "close",
-					"part": "head",
-					"actions": [
-						{
-							"type": "move",
-							"movement": { "front": 2 }
-						},
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "front": true },
-							"range": 1,
-							"dodge": 2,
-							"damage": 7,
-							"element": "physical"
-						}
-					],
-					"activation": {
-						"hunters": 1,
-						"cards": 2
-					}
-				},
-				{
-					"name": [ { "language": "en-US", "text": "Headbutt" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 547/632" } ],
-					"target": "close",
-					"part": "head",
-					"actions": [
-						{
-							"type": "move",
-							"movement": { "front": 3 }
-						},
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "front": true },
-							"range": 1,
-							"dodge": 3,
-							"damage": 6,
-							"element": "physical",
-							"status-ailment": "stun"
-						}
-					],
-					"activation": {
-						"hunters": 1,
-						"cards": 2
-					}
-				},
-				{
-					"name": [ { "language": "en-US", "text": "Spit Up" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 548/632" } ],
-					"target": "far",
-					"part": "head",
-					"actions": [
-						{
-							"type": "attack",
-							"targeting": "node",
-							"range": 4,
-							"dodge": 4,
-							"damage": 5,
-							"element": "water"
-						},
-						{
-							"type": "move",
-							"movement": { "back": 2 }
-						}
-					],
-					"activation": {
-						"hunters": 2,
-						"cards": 3
-					}
-				},
-				{
-					"name": [ { "language": "en-US", "text": "Belly Roll Left" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 549/632" } ],
-					"target": "close",
-					"part": "body",
-					"actions": [
-						{
-							"type": "move",
-							"movement": { "left": 1 }
-						},
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "front": true, "left": true, "back": true },
-							"range": 2,
-							"dodge": 3,
-							"damage": 7,
-							"element": "physical",
-							"status-ailment": "stun"
-						}
-					],
-					"activation": {
-						"hunters": 2,
-						"cards": 2
-					}
-				},
-				{
-					"name": [ { "language": "en-US", "text": "Belly Charge" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 550/632" } ],
-					"target": "far",
-					"part": "body",
-					"actions": [
-						{
-							"type": "move",
-							"movement": { "front": 3 }
-						},
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "front": true },
-							"range": 1,
-							"dodge": 3,
-							"damage": 7,
-							"element": "physical"
-						}
-					],
-					"activation": {
-						"hunters": 2,
-						"cards": 2
-					}
-				},
-				{
-					"name": [ { "language": "en-US", "text": "Belly Slam" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 551/632" } ],
-					"target": "close",
-					"part": "body",
-					"actions": [
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "front": true, "left": true, "right": true },
-							"range": 1,
-							"dodge": 3,
-							"damage": 7,
-							"element": "physical"
-						},
-						{
-							"type": "move",
-							"movement": { "back": 2 }
-						}
-					],
-					"activation": {
-						"hunters": 1,
-						"cards": 2
-					}
-				},
-				{
-					"name": [ { "language": "en-US", "text": "Belly Roll Right" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 552/632" } ],
-					"target": "close",
-					"part": "body",
-					"actions": [
-						{
-							"type": "move",
-							"movement": { "right": 1 }
-						},
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "front": true, "right": true, "back": true },
-							"range": 2,
-							"dodge": 3,
-							"damage": 7,
-							"element": "physical",
-							"status-ailment": "stun"
-						}
-					],
-					"activation": {
-						"hunters": 2,
-						"cards": 2
-					}
-				},
-				{
-					"name": [ { "language": "en-US", "text": "Front Claw Smash" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 553/632" } ],
-					"target": "far",
-					"part": "claws",
-					"actions": [
-						{
-							"type": "move",
-							"movement": { "front": 3 }
-						},
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "front": true, "right": true, "left": true },
-							"range": 1,
-							"dodge": 3,
-							"damage": 7,
-							"element": "physical"
-						}
-					],
-					"activation": {
-						"hunters": 2,
-						"cards": 2
-					}
-				},
-				{
-					"name": [ { "language": "en-US", "text": "Forward Swing" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 554/632" } ],
-					"target": "far",
-					"part": "claws",
-					"actions": [
-						{
-							"type": "move",
-							"movement": { "front": 3 }
-						},
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "front": true },
-							"range": 1,
-							"dodge": 2,
-							"damage": 6,
-							"element": "physical"
-						}
-					],
-					"activation": {
-						"hunters": 1,
-						"cards": 2
-					}
-				}
-			],
-			"special": null,
-			"track-deck": {
-				"less-or-equal-minimum": {
-					"name": [ { "language": "en-US", "text": "Forward Roll" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 556/632" } ],
-					"target": "close",
-					"part": "body",
-					"actions": [
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "front": true, "left": true, "right": true },
-							"range": 1,
-							"dodge": 3,
-							"damage": 8,
-							"element": "physical",
-							"status-ailment": "stun"
-						},
-						{
-							"type": "move",
-							"movement": { "front": 1 }
-						}
-					],
-					"activation": {
-						"hunters": 3,
-						"cards": 2
-					}
-				},
-				"above-minimum-below-maximum": {
-					"name": [ { "language": "en-US", "text": "Jagras Spit" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 557/632" } ],
-					"target": "far",
-					"part": "head",
-					"actions": [
-						{
-							"type": "move",
-							"movement": { "front": 2 }
-						},
-						{
-							"type": "attack",
-							"targeting": "node",
-							"range": 2,
-							"dodge": 2,
-							"damage": 7,
-							"element": "water"
-						}
-					],
-					"activation": {
-						"hunters": 1,
-						"cards": 2
-					}
-				},
-				"greater-or-equal-maximum": {
-					"name": [ { "language": "en-US", "text": "Retreat Swing" } ],
-					"index": [ { "language": "en-US", "text": "MHW:AF 555/632" } ],
-					"target": "close",
-					"part": "claws",
-					"actions": [
-						{
-							"type": "attack",
-							"targeting": "arc",
-							"arc": { "left": true, "right": true },
-							"range": 1,
-							"dodge": 2,
-							"damage": 6,
-							"element": "physical"
-						},
-						{
-							"type": "move",
-							"movement": { "back": 2 }
-						}
-					],
-					"activation": {
-						"hunters": 2,
-						"cards": 3
-					}
-				}
-			},
-			"rage-deck": null
-		}
-	],
-	"quest-books": [
-		{
-			"name": [
-				{ "language": "en-US", "text": "Ancient Forest" },
-				{ "language": "fr-FR", "text": "Forêt Ancienne" }
-			],
-			"short-name": [
-				{ "language": "en-US", "text": "AF/QB" },
-				{ "language": "fr-FR", "text": "AF/QB" } 
-			],
-			"version": "12368628163438241247",
-			"quests": [
-				{
-					"monster-id": "great-jagras",
-					"quest-id": "great-jagras-1",
-					"quest-name": [
-						{ "language": "en-US", "text": "Great Jagras" },
-						{ "language": "fr-FR", "text": "Grand Jagras" } 
-					],
-					"quest-category": [
-						{ "language": "en-US", "text": "Assigned Quest" },
-						{ "language": "fr-FR", "text": "Quête Assignée" } 
-					],
-					"difficulty": 1,
-					"time-limit": 35,
-					"scoutfly-level": { "min": 2, "max": 5 },
-					"starting": [ 1 ],
-					"layout": {
-						"monsters": [{
-							"monster-id": "great-jagras",
-							"x": 4,
-							"y": 3,
-							"facing": 5
-						}],
-						"players": [
-							{
-								"x": 1,
-								"y": 6
-							},
-							{
-								"x": 3,
-								"y": 6
-							},
-							{
-								"x": 4,
-								"y": 6
-							},
-							{
-								"x": 6,
-								"y": 6
-							}
-						],
-						"terrain": [
-							{
-								"type": "bush",
-								"x": 2,
-								"y": 4
-							},
-							{
-								"type": "bush",
-								"x": 5,
-								"y": 4
-							}
-						]
-					}
-				},
-				{
-					"monster-id": "great-jagras",
-					"quest-id": "great-jagras-2",
-					"quest-name": [
-						{ "language": "en-US", "text": "Great Jagras" }, 
-						{ "language": "fr-FR", "text": "Grand Jagras" } 
-					],
-					"quest-category": [
-						{ "language": "en-US", "text": "Investigation Quest" },
-						{ "language": "fr-FR", "text": "Quête Investigation" } 
-					],
-					"difficulty": 2,
-					"time-limit": 30,
-					"scoutfly-level": { "min": 3, "max": 6 },
-					"starting": [ 2, 3, 4, 5 ],
-					"layout": {
-						"monster": {
-							"x": 4,
-							"y": 3,
-							"facing": 5
-						},
-						"players": [
-							{
-								"x": 1,
-								"y": 6
-							},
-							{
-								"x": 3,
-								"y": 6
-							},
-							{
-								"x": 4,
-								"y": 6
-							},
-							{
-								"x": 6,
-								"y": 6
-							}
-						],
-						"terrain": [
-							{
-								"type": "bush",
-								"x": 2,
-								"y": 4
-							},
-							{
-								"type": "bush",
-								"x": 5,
-								"y": 4
-							},
-							{
-								"type": "pond",
-								"x": 2,
-								"y": 2
-							},
-							{
-								"type": "pond",
-								"x": 2,
-								"y": 3
-							}
-						]
-					}
-				},
-				{
-					"monster-id": "great-jagras",
-					"quest-id": "great-jagras-3",
-					"quest-name": [
-						{ "language": "en-US", "text": "Great Jagras" },
-						{ "language": "fr-FR", "text": "Grand Jagras" }
-					],
-					"quest-category": [
-						{ "language": "en-US", "text": "Tempered Investigation Quest" },
-						{ "language": "fr-FR", "text": "Quête Investigation Avancée" }
-					],
-					"difficulty": 3,
-					"time-limit": 30,
-					"scoutfly-level": { "min": 4, "max": 7 },
-					"starting": [ 2, 3, 4, 5 ],
-					"layout": {
-						"monster": {
-							"x": 4,
-							"y": 3,
-							"facing": 5
-						},
-						"players": [
-							{
-								"x": 1,
-								"y": 6
-							},
-							{
-								"x": 3,
-								"y": 6
-							},
-							{
-								"x": 4,
-								"y": 6
-							},
-							{
-								"x": 6,
-								"y": 6
-							}
-						],
-						"terrain": [
-							{
-								"type": "bush",
-								"x": 2,
-								"y": 4
-							},
-							{
-								"type": "bush",
-								"x": 5,
-								"y": 4
-							},
-							{
-								"type": "pond",
-								"x": 2,
-								"y": 2
-							},
-							{
-								"type": "pond",
-								"x": 2,
-								"y": 3
-							},
-							{
-								"type": "pond",
-								"x": 4,
-								"y": 2
-							},
-							{
-								"type": "pond",
-								"x": 5,
-								"y": 2
-							},
-							{
-								"type": "pond",
-								"x": 4,
-								"y": 5
-							},
-							{
-								"type": "pond",
-								"x": 5,
-								"y": 5
-							},
-							{
-								"type": "rock",
-								"x": 1,
-								"y": 4
-							},
-							{
-								"type": "rock",
-								"x": 6,
-								"y": 3
-							}
-						]
-					}
-				}
-			],
-			"gathering-card-decks":	[
-				{
-					"monster-id": "great-jagras",
-					"gathering-cards": [
-			            {
-			              "number": 1,
-			              "page": 6,
-			              "title": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Assigned Starting Point"
-			                },
-			                { "language": "fr-FR", "text": "Point de départ Quête assignée" }
-			              ],
-			              "title-rule": [
-			                {
-			                  "language": "en-US",
-			                  "text": "If starting the adventure here, the group gains 1 potion."
-			                },
-			                { "language": "fr-FR", "text": "Si votre aventure démarre ici, le groupe gagne 1 potion." } 
-			              ],
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "The shoreline near the Southwest Camp basks in the overhead sun, bright light reflecting from the shallow pools where Kestodon and Aptonoth water. Ahead you see the entrance to the Ancient Forest, formed by an arch of thick boughs, yawning open like a gaping maw\u2026 the sounds from the world behind you fade away to silence as you step under the rich green canopy, leaving an all-too-brief sense of calm, soon broken as the Scoutflies excitedly cluster around a huge footprint in the soil."
-			                },
-			                { "language": "fr-FR", "text": "Le rivage près du camp du sud-ouest est summergé par le soleil, la lumière vive se reflétant dans les bassins peu profonds où Kestodons et Aptonoths se rafraichissent. Devant vous, vous voyez l'entrée de la forêt ancienne, formée par une arche de branches épaisses, bâillant comme une gueule béante... les sons du monde derrière vous s'estompent dans le silence alors que vous entrez sous la riche canopée verte, laissant place à un profond sentiment de calme, qui se romp rapidement alors que les navivioles se regroupent avec enthousiasme autour d'une énorme empreinte dans le sol." }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Follow the Scoutflies!"
-			                    },
-			                    { "language": "fr-FR", "text": "Suivez les navicioles!" }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Gain 1 track token.\r\nProgress to entry 21."
-			                    },
-			                    { "language": "fr-FR", "text": "Défaussez 1 carte de temps. Gagnez 1 jeton de traque. Progressez à l'étape 21." }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 2,
-			              "page": 6,
-			              "title": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Investigation 1 Starting Point"
-			                }
-			              ],
-			              "title-rule": [
-			                {
-			                  "language": "en-US",
-			                  "text": "If starting the adventure here, the group gains 2 potions."
-			                }
-			              ],
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Each hunter gains 1 Great Jagras Claw."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Hit the trail running?"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Gain 1 track token. Progress to entry 27."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Stay and dig around the remains?"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card.\r\nEach hunter gains 1 Monster Bone medium.\r\nProgress to entry 25."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Race to where your prey was last seen!"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 5 time cards. Progress to entry 30."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 3,
-			              "page": 6,
-			              "title": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Investigation 2 Starting Point"
-			                }
-			              ],
-			              "title-rule": [
-			                {
-			                  "language": "en-US",
-			                  "text": "If starting the adventure here, the group gains 1 potion."
-			                }
-			              ],
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "The handler standing by the tracks gives you an appraising glance. \u2018I\u2019d be very careful pursuing this beast,\u2019 she says, idly scratching her chin. \u2018It\u2019s aggressive even by Jagras standards. But, if you insist on tracking it, take that route\u2026\u2019 she gestures to a dirt path leading into the forest. \u2018It\u2019s still hungry. Good luck!\u2019 Her warning said, she vanishes into the forest."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Follow her advice, and slowly advance."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Gain and reveal 1 track token, then choose whether to keep or discard it. Progress to entry 26."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "With so many tracks, there\u2019s no time to waste!"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Gain 2 track tokens. Progress to entry 16."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Race to where your prey was last seen!"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 5 time cards. Progress to entry 30."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 4,
-			              "page": 6,
-			              "title": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Investigation 3 Starting Point"
-			                }
-			              ],
-			              "title-rule": [
-			                {
-			                  "language": "en-US",
-			                  "text": "If starting the adventure here, the group gains 2 potions."
-			                }
-			              ],
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "The beach stretches out before you, an exquisite expanse of untouched sand. The sea surges across it, leaving glistening foam to mark each wave. The forest rises behind you, an oppressive memory, but you may have to withdraw back into its ferny grip and leave this beautiful scene behind. Do you\u2026"
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Head down the beach."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Gain 1 track token.\r\nProgress to entry 22."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Head back into the forest, towards a camp you can see between the trees."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Progress to entry 9."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Race to where your prey was last seen!"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 5 time cards. Progress to entry 30."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 5,
-			              "page": 7,
-			              "title": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Investigation 4 Starting Point"
-			                }
-			              ],
-			              "title-rule": [
-			                {
-			                  "language": "en-US",
-			                  "text": "If starting the adventure here, the group gains 1 potion."
-			                }
-			              ],
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "The thunder of water threatens to distract your mind as you scan the nearby terrain. Great Jagras is on the hunt, and you\u2019re on its trail. The river below surges into the forest, and the thick foliage of the trees obscures the path of the creature you seek."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Follow what tracks you can."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Gain 2 track tokens.\r\nProgress to entry 13."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Investigate the area."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 2 time cards. Each Hunter gains 1 Piercing Claw and 1 Monster Bone Large. Progress to entry 24."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Head downriver to where Great Jagras was last seen."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time cards. Progress to entry 14."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Race to where your prey was last seen!"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 5 time cards. Progress to entry 30."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 6,
-			              "page": 7,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Just when you are about to lose heart you come across a pile of Great Jagras dung, left in the wake of your prey. It may be a grisly sight, but it fills your heart with hope as you head for a clearing ahead."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "No time to look back."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Gain 3 track tokens.\r\nProgress to entry 18."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Wait, listen\u2026 is that something behind us?"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Progress to entry 30."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 7,
-			              "page": 7,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Flickering light paints eerie shadows across the walls, dancing pools of  darkness that give mind to vicious predators. Your feet kick up dust and  crunch through tiny bones, revealing sparkling metals and gems\u2026"
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Search the cave."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card.\r\nEach hunter rolls on the following table.\r\n\r\n1-2 Gain 1 Dragonite Ore\r\n3-4 Gain 1 Fucium Ore\r\n5-6 Gain 1 Ancient Bone\r\n\r\nOnce each hunter has rolled.\r\nProgress to entry 11."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Turn back from this sinister place."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Progress to entry 30."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 8,
-			              "page": 7,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Discard 1 time card."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Mine the ore, then enter the cave."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 track token.\r\nEach hunter rolls on the following table.\r\n\r\n1-2 Gain 1 Dragonite Ore\r\n3-4 Gain 1 Fucium Ore\r\n5-6 Gain 1 Firecell Ore\r\n\r\nOnce each hunter has rolled. Progress to entry 7."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Follow the tracks you can see, and hope they\u2019re fresh."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Gain 1 track token. Progress to entry 6."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 9,
-			              "page": 8,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Discard 2 time cards."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Ask for their aid."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Each hunter that does not have a Palico draws a Palico card.\r\nThey may use it during the next hunting phase, then it is discarded. Progress to entry 29."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Ask for a guide."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Gain and reveal 4 track tokens, then choose whether to keep or discard them.\r\nProgress to entry 19."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 10,
-			              "page": 8,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "You\u2019ve stalked through the forest, intricately and carefully made your way\u2026to the same cave you\u2019ve visited many times before. Still, perhaps, there might yet be some ore to be discovered."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Roll a die.\r\nOn a 1-4 all of the ore has been mined.\r\nTime to hurry on. Progress to entry 18.\r\nOn a 5-6 there\u2019s still some here. Discard 1 time card.\r\nEach hunter gains 1 Carbalite ore, and 1 Machalite ore.\r\nProgress to entry 7."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 11,
-			              "page": 8,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Something huge has clearly passed through this way, fresh markings cover the walls where it squeezed its huge bulk through the passageway. This warren is a maze; you can either rush on blindly, or stop to get your bearings."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Keep moving!"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Gain 2 track tokens.\r\nProgress to entry 30."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Advance carefully."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Reveal up to three tokens from the pool.\r\nProgress to entry 18."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 12,
-			              "page": 8,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Lightheaded and breathing heavily, you lean against the bark of a thick  tree. Your arms ache, numbness creeping through them towards your  shoulders. If only there were a way to relieve your parched throat\u2026"
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Force yourselves to go on."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "All hunters suffer 2 damage. Progress to entry 6."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Drink from your supplies."
-			                    }
-			                  ],
-			                  "condition": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "(The hunters may only choose this option if they have at least 1 potion)"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 potion. Progress to entry 6."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 13,
-			              "page": 8,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "\u2018What can I help you with?\u2019 says the small man as you pass him. You should have recognised him as a trader sooner. He grins and gestures to the pack on his back. \u2018I\u2019ve got anything you might need, just here!\u2019 You\u2019re sure he does, but you know it\u2019s going to cost you\u2026"
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "The players may discard any three resources, and add 1 Potion to the pool, or gain 1 track token.\r\nIf they do, discard 1 time card.\r\nProgress to entry 10."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 14,
-			              "page": 8,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Each hunter gains 1 Great Jagras Claw."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Investigate the voice."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Progress to entry 13."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Ignore it and continue searching through the creature\u2019s nest."
-			                    }
-			                  ],
-			                  "condition": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "(The players may only select this option if they have at least 1 Great Jagras Hide in their inventories)"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 2 time cards. Gain 1 Great Jagras Mane.\r\nProgress to entry 24."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 15,
-			              "page": 9,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "The light has begun to dim, the sun setting behind the tall trees on the horizon. If you plan on maintaining the hunt, you\u2019ll need to race ahead, or you can make camp for the evening and resume tomorrow."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "We can\u2019t waste any time. Keep up the chase!"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Shuffle the Rushed Advance card into the time deck.\r\nProgress to entry 30."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Strike camp for the night."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 2 time cards, all hunters heal to full.\r\nProgress to entry 19."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 16,
-			              "page": 9,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "A roar fills the air, echoing across the forest. The beast is nearby. A discarded pack lies on the ground in the middle of the path, the strap torn. But is this a trap?"
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Check the bag."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Roll a die.\r\nOn a 1-2 No time!\r\nProgress to entry 27.\r\nOn a 3-4 Take the bag before it is upon you!\r\nAdd 1 potion to the pool. Progress to entry 27.\r\nOn a 5-6 Snatch up the ores from the ground!\r\nEach hunter gains 1 Carbalite ore, and 1 Machalite ore.\r\nProgress to entry 27."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Leave it and explore through a gap in the trees."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Progress to entry 29."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 17,
-			              "page": 9,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Each hunter gains 1 Great Jagras Hide."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Carefully procure a scale?"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card.\r\nGain 1 Great Jagras Scale.\r\nProgress to entry 6."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "The trail is growing cold!"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Progress to entry 28."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 18,
-			              "page": 9,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "You emerge into brilliant sunlight, a fast-flowing river gurgling beside you. A trail of fresh footprints has been stamped into the mud, a path leading you forward."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Follow the tracks."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Gain 1 track token.\r\nProgress to entry 28."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Stop to examine them more closely."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 2 time cards. Discard 1 track token.\r\nProgress to entry 15."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 19,
-			              "page": 9,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "A new day dawns over the Ancient Forest, revealing fresh footprints through the morning dew. Your prey is close, and for a moment you wonder if you are the hunter or the hunted\u2026"
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "If the group has four or less track tokens, gain 1 track token.\r\nProgress to entry 30."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 20,
-			              "page": 10,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "For a moment, as you move through the jungle, you\u2019re convinced the Great Jagras has caught you. Until the vast beast remains unmoving, even as you approach it. The creature is dead. Dead of old age, it looks like. Its eyes are pale with cataracts, its scales no longer vibrant. You\u2019ve beaten the scavengers to the corpse, it\u2019s untouched. It won\u2019t last long."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Scavenge the body."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 2 time cards. Each hunter gains 1 Great Jagras Scale.\r\nIf the group has at least 1 Great Jagras Mane, each hunter also gains 1 additional Great Jagras Mane.\r\nProgress to entry 15."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Return to the trail, and head for a camp you can see between the trees."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Progress to entry 9."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 21,
-			              "page": 10,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Each hunter gains 1 Monster Bone medium."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Hurry to follow the tracks along the trail?"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Gain 1 track token. Progress to entry 23."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Stop to search for other bones nearby?"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Each hunter gains 1 Quality Bone and 1 Monster Bone Small. Progress to entry 23."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 22,
-			              "page": 10,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Two butchered Kestodon lie exposed beneath the unforgiving sun. Their flesh is already starting to turn. You\u2019ve only got a few hours before anything useful on either corpse will be ruined by descending scavengers."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Prioritise scavenging."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Each hunter gains 1 Piercing Claw,\r\nand 1 Monster Hardbone. Progress to entry 25."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Forget the corpse. Prioritise tracking."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Gain 1 track tokens. Progress to entry 20."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 23,
-			              "page": 10,
-			              "title": [
-			                {
-			                  "language": "en-US",
-			                  "text": "The trees ahead are far older and have considerably thicker foliage\u2014it  would be exhausting to hack through. Alternatively, a trail of ore along the path leads to a large cave opening in the distance. You might search there, in hope of finding your prey\u2019s den\u2026"
-			                }
-			              ],
-			              "title-rule": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Discard 1 time card."
-			                }
-			              ],
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Each hunter gains 1 Carbalite ore, and 1 Machalite ore."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Cut your way through the forest."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Progress to entry 12."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Backtrack to the cave entrance."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 2 time cards. Progress to entry 7."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 24,
-			              "page": 10,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Discard 1 time card."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Swear to avenge the spirits."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card.\r\nShuffle a Jagras Slayer card into time deck.\r\nProgress to entry 27."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Dip your head reverently\u2026 but hurry on."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Shuffle an Unavenged card into time deck.\r\nProgress to entry 26."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 25,
-			              "page": 11,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "The brush nearby contains another corpse. Another dead Aptonoth. But it might be worth examining further. Gleaning any details about Great Jagras might be invaluable later."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Spend some time cleaning the bones off so you can take them with you?"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 2 time cards.\r\nEach hunter gains 1 Monster Bone Large and 1 Great Jagras Scale. Progress to entry 27."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "We\u2019ve spent enough time here."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Progress to entry 8."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 26,
-			              "page": 11,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "A vast assemblage of bones, desiccated flesh, and shattered teeth greets you as you step out of the ring of trees. This is where the titans come to die; a monster graveyard. Nearby, there\u2019s a fresh carcass. From the marks on its throat, it was a victim of Great Jagras. Another one. You\u2019re on its trail though, and from what you know of the beast\u2019s path, there\u2019s a shortcut that should bring you out right on top of it\u2026"
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Take the time to strip the carcass."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 2 time cards. Each hunter gains 1 Monster Keenbone.\r\nProgress to entry 29."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Follow the shortcut."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Gain 2 track tokens.\r\nProgress to entry 28."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "What\u2019s that shaggy pile over there?"
-			                    }
-			                  ],
-			                  "condition": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "(The players may only choose this option if they have at least 1 Great Jagras hide in their inventories)"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Progress to entry 17."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 27,
-			              "page": 11,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "Small Jagras erupt from the brush, surrounding and snapping at you with desperate hunger. You\u2019re overwhelmed, and, for a moment, think you might be dragged under. Your training gets you through, driving the pack away and giving you a moment to breathe. But they\u2019re about to attack again\u2026"
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Fight off the pack."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 2 time cards. Each hunter suffers 1 damage,\r\nthen gains 1 Sharp Claw. Progress to entry 12."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Flee through the undergrowth."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Progress to entry 29."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 28,
-			              "page": 11,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "A scream cuts through the air. Up ahead, a bloodied satchel lays unattended on the ground\u2014it seems that something has caught up with one of the field researchers. Surely you can\u2019t leave them to their fate, can you?"
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "No, we can\u2019t. Abandon the hunt to save them!"
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 track token and shuffle a Researcher\u2019s Favour\r\ncard into the time deck. Progress to entry 15."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Yes, we can. Search the satchel, and head for a safer location."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Each hunter gains 1 Coral Crystal,\r\nthen add 1 Potion to the pool. Progress to entry 19."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 29,
-			              "page": 12,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "The carcass you\u2019ve stumbled upon is impossibly old. Older than mankind, you\u2019re sure. A creature long forgotten but still, even in death, magnificent. Your breath catches in your throat as you imagine the battles this creature must have fought."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Reverently take a bone before leaving."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Each hunter gains 1 Ancient Bone.\r\nProgress to entry 6."
-			                    }
-			                  ]
-			                },
-			                {
-			                  "prompt": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Leave this tranquil scene undisturbed."
-			                    }
-			                  ],
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Discard 1 time card. Shuffle an Ancient Guardian card into time deck. Progress to entry 18."
-			                    }
-			                  ]
-			                }
-			              ]
-			            },
-			            {
-			              "number": 30,
-			              "page": 12,
-			              "flavor": [
-			                {
-			                  "language": "en-US",
-			                  "text": "A deafening roar is your only warning, as you suddenly find yourself face to face with your prey! Now is the time to fight this terrifying adversary."
-			                }
-			              ],
-			              "rules": [
-			                {
-			                  "rules": [
-			                    {
-			                      "language": "en-US",
-			                      "text": "Reveal your track tokens, check the Scoutfly level, and begin the hunting phase."
-			                    }
-			                  ]
-			                }
-			              ]
-			            }
-					]
-				}
-			]
-		}
-	]
+    "copyright":[
+        {
+            "language":"en-US",
+            "text":"© CAPCOM"
+        }
+    ],
+    "glossary":{
+        "rule-box-concat":[
+            {
+                "language":"en-US",
+                "text":"or"
+            }
+        ]
+    },
+    "behavior-decks":[
+        {
+            "monster-id":"great-jagras",
+            "base-deck":[
+                {
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Heavy Bite"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 545/632"
+                        }
+                    ],
+                    "target":"close",
+                    "part":"head",
+                    "actions":[
+                        {
+                            "type":"move",
+                            "movement":{
+                                "front":2
+                            }
+                        },
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "front":true
+                            },
+                            "range":1,
+                            "dodge":2,
+                            "damage":6,
+                            "element":"physical"
+                        }
+                    ],
+                    "activation":{
+                        "hunters":1,
+                        "cards":3
+                    }
+                },
+                {
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Head Slam"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 546/632"
+                        }
+                    ],
+                    "target":"close",
+                    "part":"head",
+                    "actions":[
+                        {
+                            "type":"move",
+                            "movement":{
+                                "front":2
+                            }
+                        },
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "front":true
+                            },
+                            "range":1,
+                            "dodge":2,
+                            "damage":7,
+                            "element":"physical"
+                        }
+                    ],
+                    "activation":{
+                        "hunters":1,
+                        "cards":2
+                    }
+                },
+                {
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Headbutt"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 547/632"
+                        }
+                    ],
+                    "target":"close",
+                    "part":"head",
+                    "actions":[
+                        {
+                            "type":"move",
+                            "movement":{
+                                "front":3
+                            }
+                        },
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "front":true
+                            },
+                            "range":1,
+                            "dodge":3,
+                            "damage":6,
+                            "element":"physical",
+                            "status-ailment":"stun"
+                        }
+                    ],
+                    "activation":{
+                        "hunters":1,
+                        "cards":2
+                    }
+                },
+                {
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Spit Up"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 548/632"
+                        }
+                    ],
+                    "target":"far",
+                    "part":"head",
+                    "actions":[
+                        {
+                            "type":"attack",
+                            "targeting":"node",
+                            "range":4,
+                            "dodge":4,
+                            "damage":5,
+                            "element":"water"
+                        },
+                        {
+                            "type":"move",
+                            "movement":{
+                                "back":2
+                            }
+                        }
+                    ],
+                    "activation":{
+                        "hunters":2,
+                        "cards":3
+                    }
+                },
+                {
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Belly Roll Left"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 549/632"
+                        }
+                    ],
+                    "target":"close",
+                    "part":"body",
+                    "actions":[
+                        {
+                            "type":"move",
+                            "movement":{
+                                "left":1
+                            }
+                        },
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "front":true,
+                                "left":true,
+                                "back":true
+                            },
+                            "range":2,
+                            "dodge":3,
+                            "damage":7,
+                            "element":"physical",
+                            "status-ailment":"stun"
+                        }
+                    ],
+                    "activation":{
+                        "hunters":2,
+                        "cards":2
+                    }
+                },
+                {
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Belly Charge"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 550/632"
+                        }
+                    ],
+                    "target":"far",
+                    "part":"body",
+                    "actions":[
+                        {
+                            "type":"move",
+                            "movement":{
+                                "front":3
+                            }
+                        },
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "front":true
+                            },
+                            "range":1,
+                            "dodge":3,
+                            "damage":7,
+                            "element":"physical"
+                        }
+                    ],
+                    "activation":{
+                        "hunters":2,
+                        "cards":2
+                    }
+                },
+                {
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Belly Slam"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 551/632"
+                        }
+                    ],
+                    "target":"close",
+                    "part":"body",
+                    "actions":[
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "front":true,
+                                "left":true,
+                                "right":true
+                            },
+                            "range":1,
+                            "dodge":3,
+                            "damage":7,
+                            "element":"physical"
+                        },
+                        {
+                            "type":"move",
+                            "movement":{
+                                "back":2
+                            }
+                        }
+                    ],
+                    "activation":{
+                        "hunters":1,
+                        "cards":2
+                    }
+                },
+                {
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Belly Roll Right"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 552/632"
+                        }
+                    ],
+                    "target":"close",
+                    "part":"body",
+                    "actions":[
+                        {
+                            "type":"move",
+                            "movement":{
+                                "right":1
+                            }
+                        },
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "front":true,
+                                "right":true,
+                                "back":true
+                            },
+                            "range":2,
+                            "dodge":3,
+                            "damage":7,
+                            "element":"physical",
+                            "status-ailment":"stun"
+                        }
+                    ],
+                    "activation":{
+                        "hunters":2,
+                        "cards":2
+                    }
+                },
+                {
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Front Claw Smash"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 553/632"
+                        }
+                    ],
+                    "target":"far",
+                    "part":"claws",
+                    "actions":[
+                        {
+                            "type":"move",
+                            "movement":{
+                                "front":3
+                            }
+                        },
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "front":true,
+                                "right":true,
+                                "left":true
+                            },
+                            "range":1,
+                            "dodge":3,
+                            "damage":7,
+                            "element":"physical"
+                        }
+                    ],
+                    "activation":{
+                        "hunters":2,
+                        "cards":2
+                    }
+                },
+                {
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Forward Swing"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 554/632"
+                        }
+                    ],
+                    "target":"far",
+                    "part":"claws",
+                    "actions":[
+                        {
+                            "type":"move",
+                            "movement":{
+                                "front":3
+                            }
+                        },
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "front":true
+                            },
+                            "range":1,
+                            "dodge":2,
+                            "damage":6,
+                            "element":"physical"
+                        }
+                    ],
+                    "activation":{
+                        "hunters":1,
+                        "cards":2
+                    }
+                }
+            ],
+            "special":null,
+            "track-deck":{
+                "less-or-equal-minimum":{
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Forward Roll"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 556/632"
+                        }
+                    ],
+                    "target":"close",
+                    "part":"body",
+                    "actions":[
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "front":true,
+                                "left":true,
+                                "right":true
+                            },
+                            "range":1,
+                            "dodge":3,
+                            "damage":8,
+                            "element":"physical",
+                            "status-ailment":"stun"
+                        },
+                        {
+                            "type":"move",
+                            "movement":{
+                                "front":1
+                            }
+                        }
+                    ],
+                    "activation":{
+                        "hunters":3,
+                        "cards":2
+                    }
+                },
+                "above-minimum-below-maximum":{
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Jagras Spit"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 557/632"
+                        }
+                    ],
+                    "target":"far",
+                    "part":"head",
+                    "actions":[
+                        {
+                            "type":"move",
+                            "movement":{
+                                "front":2
+                            }
+                        },
+                        {
+                            "type":"attack",
+                            "targeting":"node",
+                            "range":2,
+                            "dodge":2,
+                            "damage":7,
+                            "element":"water"
+                        }
+                    ],
+                    "activation":{
+                        "hunters":1,
+                        "cards":2
+                    }
+                },
+                "greater-or-equal-maximum":{
+                    "name":[
+                        {
+                            "language":"en-US",
+                            "text":"Retreat Swing"
+                        }
+                    ],
+                    "index":[
+                        {
+                            "language":"en-US",
+                            "text":"MHW:AF 555/632"
+                        }
+                    ],
+                    "target":"close",
+                    "part":"claws",
+                    "actions":[
+                        {
+                            "type":"attack",
+                            "targeting":"arc",
+                            "arc":{
+                                "left":true,
+                                "right":true
+                            },
+                            "range":1,
+                            "dodge":2,
+                            "damage":6,
+                            "element":"physical"
+                        },
+                        {
+                            "type":"move",
+                            "movement":{
+                                "back":2
+                            }
+                        }
+                    ],
+                    "activation":{
+                        "hunters":2,
+                        "cards":3
+                    }
+                }
+            },
+            "rage-deck":null
+        }
+    ],
+    "quest-books":[
+        {
+            "name":[
+                {
+                    "language":"en-US",
+                    "text":"Ancient Forest"
+                },
+                {
+                    "language":"fr-FR",
+                    "text":"Forêt Ancienne"
+                }
+            ],
+            "short-name":[
+                {
+                    "language":"en-US",
+                    "text":"AF/QB"
+                },
+                {
+                    "language":"fr-FR",
+                    "text":"AF/QB"
+                }
+            ],
+            "version":"12368628163438241247",
+            "quests":[
+                {
+                    "monster-id":"great-jagras",
+                    "quest-id":"great-jagras-1",
+                    "quest-name":[
+                        {
+                            "language":"en-US",
+                            "text":"Great Jagras"
+                        },
+                        {
+                            "language":"fr-FR",
+                            "text":"Grand Jagras"
+                        }
+                    ],
+                    "quest-category":[
+                        {
+                            "language":"en-US",
+                            "text":"Assigned Quest"
+                        },
+                        {
+                            "language":"fr-FR",
+                            "text":"Quête Assignée"
+                        }
+                    ],
+                    "difficulty":1,
+                    "time-limit":35,
+                    "scoutfly-level":{
+                        "min":2,
+                        "max":5
+                    },
+                    "starting":[
+                        1
+                    ],
+                    "layout":{
+                        "monsters":[
+                            {
+                                "monster-id":"great-jagras",
+                                "x":4,
+                                "y":3,
+                                "facing":5
+                            }
+                        ],
+                        "players":[
+                            {
+                                "x":1,
+                                "y":6
+                            },
+                            {
+                                "x":3,
+                                "y":6
+                            },
+                            {
+                                "x":4,
+                                "y":6
+                            },
+                            {
+                                "x":6,
+                                "y":6
+                            }
+                        ],
+                        "terrain":[
+                            {
+                                "type":"bush",
+                                "x":2,
+                                "y":4
+                            },
+                            {
+                                "type":"bush",
+                                "x":5,
+                                "y":4
+                            }
+                        ]
+                    }
+                },
+                {
+                    "monster-id":"great-jagras",
+                    "quest-id":"great-jagras-2",
+                    "quest-name":[
+                        {
+                            "language":"en-US",
+                            "text":"Great Jagras"
+                        },
+                        {
+                            "language":"fr-FR",
+                            "text":"Grand Jagras"
+                        }
+                    ],
+                    "quest-category":[
+                        {
+                            "language":"en-US",
+                            "text":"Investigation Quest"
+                        },
+                        {
+                            "language":"fr-FR",
+                            "text":"Quête Investigation"
+                        }
+                    ],
+                    "difficulty":2,
+                    "time-limit":30,
+                    "scoutfly-level":{
+                        "min":3,
+                        "max":6
+                    },
+                    "starting":[
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "layout":{
+                        "monster":{
+                            "x":4,
+                            "y":3,
+                            "facing":5
+                        },
+                        "players":[
+                            {
+                                "x":1,
+                                "y":6
+                            },
+                            {
+                                "x":3,
+                                "y":6
+                            },
+                            {
+                                "x":4,
+                                "y":6
+                            },
+                            {
+                                "x":6,
+                                "y":6
+                            }
+                        ],
+                        "terrain":[
+                            {
+                                "type":"bush",
+                                "x":2,
+                                "y":4
+                            },
+                            {
+                                "type":"bush",
+                                "x":5,
+                                "y":4
+                            },
+                            {
+                                "type":"pond",
+                                "x":2,
+                                "y":2
+                            },
+                            {
+                                "type":"pond",
+                                "x":2,
+                                "y":3
+                            }
+                        ]
+                    }
+                },
+                {
+                    "monster-id":"great-jagras",
+                    "quest-id":"great-jagras-3",
+                    "quest-name":[
+                        {
+                            "language":"en-US",
+                            "text":"Great Jagras"
+                        },
+                        {
+                            "language":"fr-FR",
+                            "text":"Grand Jagras"
+                        }
+                    ],
+                    "quest-category":[
+                        {
+                            "language":"en-US",
+                            "text":"Tempered Investigation Quest"
+                        },
+                        {
+                            "language":"fr-FR",
+                            "text":"Quête Investigation Avancée"
+                        }
+                    ],
+                    "difficulty":3,
+                    "time-limit":30,
+                    "scoutfly-level":{
+                        "min":4,
+                        "max":7
+                    },
+                    "starting":[
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "layout":{
+                        "monster":{
+                            "x":4,
+                            "y":3,
+                            "facing":5
+                        },
+                        "players":[
+                            {
+                                "x":1,
+                                "y":6
+                            },
+                            {
+                                "x":3,
+                                "y":6
+                            },
+                            {
+                                "x":4,
+                                "y":6
+                            },
+                            {
+                                "x":6,
+                                "y":6
+                            }
+                        ],
+                        "terrain":[
+                            {
+                                "type":"bush",
+                                "x":2,
+                                "y":4
+                            },
+                            {
+                                "type":"bush",
+                                "x":5,
+                                "y":4
+                            },
+                            {
+                                "type":"pond",
+                                "x":2,
+                                "y":2
+                            },
+                            {
+                                "type":"pond",
+                                "x":2,
+                                "y":3
+                            },
+                            {
+                                "type":"pond",
+                                "x":4,
+                                "y":2
+                            },
+                            {
+                                "type":"pond",
+                                "x":5,
+                                "y":2
+                            },
+                            {
+                                "type":"pond",
+                                "x":4,
+                                "y":5
+                            },
+                            {
+                                "type":"pond",
+                                "x":5,
+                                "y":5
+                            },
+                            {
+                                "type":"rock",
+                                "x":1,
+                                "y":4
+                            },
+                            {
+                                "type":"rock",
+                                "x":6,
+                                "y":3
+                            }
+                        ]
+                    }
+                }
+            ],
+            "gathering-card-decks":[
+                {
+                    "monster-id":"great-jagras",
+                    "gathering-cards":[
+                        {
+                            "number":1,
+                            "page":6,
+                            "title":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Assigned Starting Point"
+                                },
+                                {
+                                    "language":"fr-FR",
+                                    "text":"Point de départ Quête assignée"
+                                }
+                            ],
+                            "title-rule":[
+                                {
+                                    "language":"en-US",
+                                    "text":"If starting the adventure here, the group gains 1 potion."
+                                },
+                                {
+                                    "language":"fr-FR",
+                                    "text":"Si votre aventure démarre ici, le groupe gagne 1 potion."
+                                }
+                            ],
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"The shoreline near the Southwest Camp basks in the overhead sun, bright light reflecting from the shallow pools where Kestodon and Aptonoth water. Ahead you see the entrance to the Ancient Forest, formed by an arch of thick boughs, yawning open like a gaping maw\u2026 the sounds from the world behind you fade away to silence as you step under the rich green canopy, leaving an all-too-brief sense of calm, soon broken as the Scoutflies excitedly cluster around a huge footprint in the soil."
+                                },
+                                {
+                                    "language":"fr-FR",
+                                    "text":"Le rivage près du camp du sud-ouest est summergé par le soleil, la lumière vive se reflétant dans les bassins peu profonds où Kestodons et Aptonoths se rafraichissent. Devant vous, vous voyez l'entrée de la forêt ancienne, formée par une arche de branches épaisses, bâillant comme une gueule béante... les sons du monde derrière vous s'estompent dans le silence alors que vous entrez sous la riche canopée verte, laissant place à un profond sentiment de calme, qui se romp rapidement alors que les navivioles se regroupent avec enthousiasme autour d'une énorme empreinte dans le sol."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Follow the Scoutflies!"
+                                        },
+                                        {
+                                            "language":"fr-FR",
+                                            "text":"Suivez les navicioles!"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Gain 1 track token.\r\nProgress to entry 21."
+                                        },
+                                        {
+                                            "language":"fr-FR",
+                                            "text":"Défaussez 1 carte de temps. Gagnez 1 jeton de traque. Progressez à l'étape 21."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":2,
+                            "page":6,
+                            "title":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Investigation 1 Starting Point"
+                                }
+                            ],
+                            "title-rule":[
+                                {
+                                    "language":"en-US",
+                                    "text":"If starting the adventure here, the group gains 2 potions."
+                                }
+                            ],
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Great Jagras Claw."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Hit the trail running?"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Gain 1 track token. Progress to entry 27."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Stay and dig around the remains?"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card.\r\nEach hunter gains 1 Monster Bone medium.\r\nProgress to entry 25."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Race to where your prey was last seen!"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 5 time cards. Progress to entry 30."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":3,
+                            "page":6,
+                            "title":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Investigation 2 Starting Point"
+                                }
+                            ],
+                            "title-rule":[
+                                {
+                                    "language":"en-US",
+                                    "text":"If starting the adventure here, the group gains 1 potion."
+                                }
+                            ],
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"The handler standing by the tracks gives you an appraising glance. \u2018I\u2019d be very careful pursuing this beast,\u2019 she says, idly scratching her chin. \u2018It\u2019s aggressive even by Jagras standards. But, if you insist on tracking it, take that route\u2026\u2019 she gestures to a dirt path leading into the forest. \u2018It\u2019s still hungry. Good luck!\u2019 Her warning said, she vanishes into the forest."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Follow her advice, and slowly advance."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Gain and reveal 1 track token, then choose whether to keep or discard it. Progress to entry 26."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"With so many tracks, there\u2019s no time to waste!"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Gain 2 track tokens. Progress to entry 16."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Race to where your prey was last seen!"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 5 time cards. Progress to entry 30."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":4,
+                            "page":6,
+                            "title":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Investigation 3 Starting Point"
+                                }
+                            ],
+                            "title-rule":[
+                                {
+                                    "language":"en-US",
+                                    "text":"If starting the adventure here, the group gains 2 potions."
+                                }
+                            ],
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"The beach stretches out before you, an exquisite expanse of untouched sand. The sea surges across it, leaving glistening foam to mark each wave. The forest rises behind you, an oppressive memory, but you may have to withdraw back into its ferny grip and leave this beautiful scene behind. Do you\u2026"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Head down the beach."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Gain 1 track token.\r\nProgress to entry 22."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Head back into the forest, towards a camp you can see between the trees."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Progress to entry 9."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Race to where your prey was last seen!"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 5 time cards. Progress to entry 30."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":5,
+                            "page":7,
+                            "title":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Investigation 4 Starting Point"
+                                }
+                            ],
+                            "title-rule":[
+                                {
+                                    "language":"en-US",
+                                    "text":"If starting the adventure here, the group gains 1 potion."
+                                }
+                            ],
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"The thunder of water threatens to distract your mind as you scan the nearby terrain. Great Jagras is on the hunt, and you\u2019re on its trail. The river below surges into the forest, and the thick foliage of the trees obscures the path of the creature you seek."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Follow what tracks you can."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Gain 2 track tokens.\r\nProgress to entry 13."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Investigate the area."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 2 time cards. Each Hunter gains 1 Piercing Claw and 1 Monster Bone Large. Progress to entry 24."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Head downriver to where Great Jagras was last seen."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time cards. Progress to entry 14."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Race to where your prey was last seen!"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 5 time cards. Progress to entry 30."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":6,
+                            "page":7,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Just when you are about to lose heart you come across a pile of Great Jagras dung, left in the wake of your prey. It may be a grisly sight, but it fills your heart with hope as you head for a clearing ahead."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"No time to look back."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Gain 3 track tokens.\r\nProgress to entry 18."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Wait, listen\u2026 is that something behind us?"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Progress to entry 30."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":7,
+                            "page":7,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Flickering light paints eerie shadows across the walls, dancing pools of  darkness that give mind to vicious predators. Your feet kick up dust and  crunch through tiny bones, revealing sparkling metals and gems\u2026"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Search the cave."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card.\r\nEach hunter rolls on the following table.\r\n\r\n1-2 Gain 1 Dragonite Ore\r\n3-4 Gain 1 Fucium Ore\r\n5-6 Gain 1 Ancient Bone\r\n\r\nOnce each hunter has rolled.\r\nProgress to entry 11."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Turn back from this sinister place."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Progress to entry 30."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":8,
+                            "page":7,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Mine the ore, then enter the cave."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 track token.\r\nEach hunter rolls on the following table.\r\n\r\n1-2 Gain 1 Dragonite Ore\r\n3-4 Gain 1 Fucium Ore\r\n5-6 Gain 1 Firecell Ore\r\n\r\nOnce each hunter has rolled. Progress to entry 7."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Follow the tracks you can see, and hope they\u2019re fresh."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Gain 1 track token. Progress to entry 6."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":9,
+                            "page":8,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 2 time cards."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Ask for their aid."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Each hunter that does not have a Palico draws a Palico card.\r\nThey may use it during the next hunting phase, then it is discarded. Progress to entry 29."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Ask for a guide."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Gain and reveal 4 track tokens, then choose whether to keep or discard them.\r\nProgress to entry 19."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":10,
+                            "page":8,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"You\u2019ve stalked through the forest, intricately and carefully made your way\u2026to the same cave you\u2019ve visited many times before. Still, perhaps, there might yet be some ore to be discovered."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Roll a die.\r\nOn a 1-4 all of the ore has been mined.\r\nTime to hurry on. Progress to entry 18.\r\nOn a 5-6 there\u2019s still some here. Discard 1 time card.\r\nEach hunter gains 1 Carbalite ore, and 1 Machalite ore.\r\nProgress to entry 7."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":11,
+                            "page":8,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Something huge has clearly passed through this way, fresh markings cover the walls where it squeezed its huge bulk through the passageway. This warren is a maze; you can either rush on blindly, or stop to get your bearings."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Keep moving!"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Gain 2 track tokens.\r\nProgress to entry 30."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Advance carefully."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Reveal up to three tokens from the pool.\r\nProgress to entry 18."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":12,
+                            "page":8,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Lightheaded and breathing heavily, you lean against the bark of a thick  tree. Your arms ache, numbness creeping through them towards your  shoulders. If only there were a way to relieve your parched throat\u2026"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Force yourselves to go on."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"All hunters suffer 2 damage. Progress to entry 6."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Drink from your supplies."
+                                        }
+                                    ],
+                                    "condition":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"(The hunters may only choose this option if they have at least 1 potion)"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 potion. Progress to entry 6."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":13,
+                            "page":8,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"\u2018What can I help you with?\u2019 says the small man as you pass him. You should have recognised him as a trader sooner. He grins and gestures to the pack on his back. \u2018I\u2019ve got anything you might need, just here!\u2019 You\u2019re sure he does, but you know it\u2019s going to cost you\u2026"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"The players may discard any three resources, and add 1 Potion to the pool, or gain 1 track token.\r\nIf they do, discard 1 time card.\r\nProgress to entry 10."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":14,
+                            "page":8,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Great Jagras Claw."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Investigate the voice."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Progress to entry 13."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Ignore it and continue searching through the creature\u2019s nest."
+                                        }
+                                    ],
+                                    "condition":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"(The players may only select this option if they have at least 1 Great Jagras Hide in their inventories)"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 2 time cards. Gain 1 Great Jagras Mane.\r\nProgress to entry 24."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":15,
+                            "page":9,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"The light has begun to dim, the sun setting behind the tall trees on the horizon. If you plan on maintaining the hunt, you\u2019ll need to race ahead, or you can make camp for the evening and resume tomorrow."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"We can\u2019t waste any time. Keep up the chase!"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Shuffle the Rushed Advance card into the time deck.\r\nProgress to entry 30."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Strike camp for the night."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 2 time cards, all hunters heal to full.\r\nProgress to entry 19."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":16,
+                            "page":9,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"A roar fills the air, echoing across the forest. The beast is nearby. A discarded pack lies on the ground in the middle of the path, the strap torn. But is this a trap?"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Check the bag."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Roll a die.\r\nOn a 1-2 No time!\r\nProgress to entry 27.\r\nOn a 3-4 Take the bag before it is upon you!\r\nAdd 1 potion to the pool. Progress to entry 27.\r\nOn a 5-6 Snatch up the ores from the ground!\r\nEach hunter gains 1 Carbalite ore, and 1 Machalite ore.\r\nProgress to entry 27."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Leave it and explore through a gap in the trees."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Progress to entry 29."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":17,
+                            "page":9,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Great Jagras Hide."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Carefully procure a scale?"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card.\r\nGain 1 Great Jagras Scale.\r\nProgress to entry 6."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"The trail is growing cold!"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Progress to entry 28."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":18,
+                            "page":9,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"You emerge into brilliant sunlight, a fast-flowing river gurgling beside you. A trail of fresh footprints has been stamped into the mud, a path leading you forward."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Follow the tracks."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Gain 1 track token.\r\nProgress to entry 28."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Stop to examine them more closely."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 2 time cards. Discard 1 track token.\r\nProgress to entry 15."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":19,
+                            "page":9,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"A new day dawns over the Ancient Forest, revealing fresh footprints through the morning dew. Your prey is close, and for a moment you wonder if you are the hunter or the hunted\u2026"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"If the group has four or less track tokens, gain 1 track token.\r\nProgress to entry 30."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":20,
+                            "page":10,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"For a moment, as you move through the jungle, you\u2019re convinced the Great Jagras has caught you. Until the vast beast remains unmoving, even as you approach it. The creature is dead. Dead of old age, it looks like. Its eyes are pale with cataracts, its scales no longer vibrant. You\u2019ve beaten the scavengers to the corpse, it\u2019s untouched. It won\u2019t last long."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Scavenge the body."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 2 time cards. Each hunter gains 1 Great Jagras Scale.\r\nIf the group has at least 1 Great Jagras Mane, each hunter also gains 1 additional Great Jagras Mane.\r\nProgress to entry 15."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Return to the trail, and head for a camp you can see between the trees."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Progress to entry 9."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":21,
+                            "page":10,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Monster Bone medium."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Hurry to follow the tracks along the trail?"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Gain 1 track token. Progress to entry 23."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Stop to search for other bones nearby?"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Each hunter gains 1 Quality Bone and 1 Monster Bone Small. Progress to entry 23."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":22,
+                            "page":10,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Two butchered Kestodon lie exposed beneath the unforgiving sun. Their flesh is already starting to turn. You\u2019ve only got a few hours before anything useful on either corpse will be ruined by descending scavengers."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Prioritise scavenging."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Each hunter gains 1 Piercing Claw,\r\nand 1 Monster Hardbone. Progress to entry 25."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Forget the corpse. Prioritise tracking."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Gain 1 track tokens. Progress to entry 20."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":23,
+                            "page":10,
+                            "title":[
+                                {
+                                    "language":"en-US",
+                                    "text":"The trees ahead are far older and have considerably thicker foliage\u2014it  would be exhausting to hack through. Alternatively, a trail of ore along the path leads to a large cave opening in the distance. You might search there, in hope of finding your prey\u2019s den\u2026"
+                                }
+                            ],
+                            "title-rule":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
+                            ],
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Carbalite ore, and 1 Machalite ore."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Cut your way through the forest."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Progress to entry 12."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Backtrack to the cave entrance."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 2 time cards. Progress to entry 7."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":24,
+                            "page":10,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Swear to avenge the spirits."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card.\r\nShuffle a Jagras Slayer card into time deck.\r\nProgress to entry 27."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Dip your head reverently\u2026 but hurry on."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Shuffle an Unavenged card into time deck.\r\nProgress to entry 26."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":25,
+                            "page":11,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"The brush nearby contains another corpse. Another dead Aptonoth. But it might be worth examining further. Gleaning any details about Great Jagras might be invaluable later."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Spend some time cleaning the bones off so you can take them with you?"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 2 time cards.\r\nEach hunter gains 1 Monster Bone Large and 1 Great Jagras Scale. Progress to entry 27."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"We\u2019ve spent enough time here."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Progress to entry 8."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":26,
+                            "page":11,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"A vast assemblage of bones, desiccated flesh, and shattered teeth greets you as you step out of the ring of trees. This is where the titans come to die; a monster graveyard. Nearby, there\u2019s a fresh carcass. From the marks on its throat, it was a victim of Great Jagras. Another one. You\u2019re on its trail though, and from what you know of the beast\u2019s path, there\u2019s a shortcut that should bring you out right on top of it\u2026"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Take the time to strip the carcass."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 2 time cards. Each hunter gains 1 Monster Keenbone.\r\nProgress to entry 29."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Follow the shortcut."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Gain 2 track tokens.\r\nProgress to entry 28."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"What\u2019s that shaggy pile over there?"
+                                        }
+                                    ],
+                                    "condition":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"(The players may only choose this option if they have at least 1 Great Jagras hide in their inventories)"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Progress to entry 17."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":27,
+                            "page":11,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Small Jagras erupt from the brush, surrounding and snapping at you with desperate hunger. You\u2019re overwhelmed, and, for a moment, think you might be dragged under. Your training gets you through, driving the pack away and giving you a moment to breathe. But they\u2019re about to attack again\u2026"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Fight off the pack."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 2 time cards. Each hunter suffers 1 damage,\r\nthen gains 1 Sharp Claw. Progress to entry 12."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Flee through the undergrowth."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Progress to entry 29."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":28,
+                            "page":11,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"A scream cuts through the air. Up ahead, a bloodied satchel lays unattended on the ground\u2014it seems that something has caught up with one of the field researchers. Surely you can\u2019t leave them to their fate, can you?"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"No, we can\u2019t. Abandon the hunt to save them!"
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 track token and shuffle a Researcher\u2019s Favour\r\ncard into the time deck. Progress to entry 15."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Yes, we can. Search the satchel, and head for a safer location."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Each hunter gains 1 Coral Crystal,\r\nthen add 1 Potion to the pool. Progress to entry 19."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":29,
+                            "page":12,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"The carcass you\u2019ve stumbled upon is impossibly old. Older than mankind, you\u2019re sure. A creature long forgotten but still, even in death, magnificent. Your breath catches in your throat as you imagine the battles this creature must have fought."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Reverently take a bone before leaving."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Each hunter gains 1 Ancient Bone.\r\nProgress to entry 6."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prompt":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Leave this tranquil scene undisturbed."
+                                        }
+                                    ],
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Discard 1 time card. Shuffle an Ancient Guardian card into time deck. Progress to entry 18."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number":30,
+                            "page":12,
+                            "flavor":[
+                                {
+                                    "language":"en-US",
+                                    "text":"A deafening roar is your only warning, as you suddenly find yourself face to face with your prey! Now is the time to fight this terrifying adversary."
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "rules":[
+                                        {
+                                            "language":"en-US",
+                                            "text":"Reveal your track tokens, check the Scoutfly level, and begin the hunting phase."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
