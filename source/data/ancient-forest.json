@@ -638,20 +638,16 @@
 					        {
 					            "part": "head",
 					            "arc":{
-					                "left":true,
-					                "right":true,
-					                "back":true
+					                "front":true
 					            },
 					            "armor":0,
 					            "break":4,
-					            "rules": [ { "language":"en-US", "text":"Behaviours with water inflict physical damage instead of elemental damage." } ]
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [water] inflict physical damage instead of elemental damage." } ]
 					        },
 					        {
 					            "part": "body",
 					            "arc":{
-					                "left":true,
-					                "right":true,
-					                "front":true
+					                "back":true
 					            },
 					            "armor":1,
 					            "break":3,
@@ -660,8 +656,8 @@
 					        {
 					            "part": "claws",
 					            "arc":{
-					                "front":true,
-					                "back":true
+					                "left":true,
+					                "right":true
 					            },
 					            "armor":0,
 					            "break":3
@@ -691,7 +687,7 @@
 					        {
 					            "number":6,
 					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Claw" } ],
-					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the claws were broken." } ]
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [claws] were broken." } ]
 					        },
 					        {
 					            "number":7,
@@ -708,7 +704,7 @@
 					        {
 					            "number":10,
 					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Hide" } ],
-					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the body was broken." } ]
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
 					        },
 					        {
 					            "number":11,
@@ -717,7 +713,7 @@
 					        {
 					            "number":12,
 					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Mane" } ],
-					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the head was broken." } ]
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
 					        }
 					    ]
 					},
@@ -814,6 +810,109 @@
                             "text":"Quête Investigation"
                         }
                     ],
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Fanged Wyvern" } ],
+					    "hitpoints": 60,
+					    "resistance": {
+					        "fire":1,
+					        "water":-1,
+					        "thunder":2,
+					        "ice":2,
+					        "dragon":-1,
+					        "paralysis":1,
+					        "poison":1,
+					        "sleep":1,
+					        "blastblight":1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Irritable" } ],
+					        "rules": [ { "language":"en-US", "text":"Each time this monster deals 1 or more damage to a hunter it regains 1 lost health. While this monster has at least 1 broken body part, behaviours this monster performs gain +1 [damage] and +1 [dodge]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":0,
+					            "break":4,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [water] inflict physical damage instead of elemental damage." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":1,
+					            "break":4,
+					            "rules": [ { "language":"en-US", "text":"The monster suffers 5 damage." } ]
+					        },
+					        {
+					            "part": "claws",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":1,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [claws] have -1 [move]." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Small" } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Claw" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Hide" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Scale" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Mane" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Claw" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [claws] were broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Sharp Claw" } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Piercing Claw" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Small" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Hide" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Scale" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Mane" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        }
+					    ]
+					},
                     "difficulty":2,
                     "time-limit":30,
                     "scoutfly-level":{
@@ -897,6 +996,109 @@
                             "text":"Quête Investigation Avancée"
                         }
                     ],
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Fanged Wyvern" } ],
+					    "hitpoints": 65,
+					    "resistance": {
+					        "fire":1,
+					        "water":-1,
+					        "thunder":2,
+					        "ice":2,
+					        "dragon":-1,
+					        "paralysis":1,
+					        "poison":1,
+					        "sleep":1,
+					        "blastblight":1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Jagras Alpha" } ],
+					        "rules": [ { "language":"en-US", "text":"Each time this monster deals 1 or more damage to a hunter it regains 1 lost health. Behaviours gain +1 [damage] and +1 [dodge]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":1,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [water] inflict physical damage instead of elemental damage." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":2,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"The monster doesn't regain lost health when it damages hunters." } ]
+					        },
+					        {
+					            "part": "claws",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":1,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [claws] have -1 [move]." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Small" } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Claw" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Hide" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Scale" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Mane" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Claw" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [claws] were broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Sharp Claw" } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Piercing Claw" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Small" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Hide" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Scale" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Great Jagras Mane" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        }
+					    ]
+					},
                     "difficulty":3,
                     "time-limit":30,
                     "scoutfly-level":{
@@ -1006,6 +1208,109 @@
                             "text":"Quête Assignée"
                         }
                     ],
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Fanged Wyvern" } ],
+					    "hitpoints": 60,
+					    "resistance": {
+					        "fire":2,
+					        "water":1,
+					        "thunder":-1,
+					        "ice":2,
+					        "dragon":-1,
+					        "paralysis":2,
+					        "poison":1,
+					        "sleep":2,
+					        "blastblight":2,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Shocking" } ],
+					        "rules": [ { "language":"en-US", "text":"When you determine Tobi-Kadachi's target for a [thunder] behaviour remove Tobi-Kadachi from the board. Place Tobi-Kadachi on the farthest rock node from its current node without changing its facing. If there are multiple farthest rock nodes, the players choose. Move any hunters on that node as if Tobi-Kadachi had moved onto the node. Then resolve the behaviour as normal." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":1,
+					            "break":3,
+					            "rules": null
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":1,
+					            "break":4,
+					            "rules": null
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":2,
+					            "break":3,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [paralysis] inflict -1 [damage]." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Medium" } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Pelt" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Scale" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Electro Sac" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Electrode" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Membrane" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Keenbone" } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Claw" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Medium" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Thunder Sac" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Keenbone" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Electrode" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        }
+					    ]
+					},
                     "difficulty":1,
                     "time-limit":35,
                     "scoutfly-level":{
@@ -1097,6 +1402,109 @@
                             "text":"Quête Investigation"
                         }
                     ],
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Fanged Wyvern" } ],
+					    "hitpoints": 65,
+					    "resistance": {
+					        "fire":2,
+					        "water":1,
+					        "thunder":-1,
+					        "ice":2,
+					        "dragon":-1,
+					        "paralysis":2,
+					        "poison":1,
+					        "sleep":2,
+					        "blastblight":2,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Electrifying" } ],
+					        "rules": [ { "language":"en-US", "text":"When you determine Tobi-Kadachi's target for a [thunder] behaviour remove Tobi-Kadachi from the board. Place Tobi-Kadachi on the farthest rock node from its current node without changing its facing. If there are multiple farthest rock nodes, the players choose. Move any hunters on that node as if Tobi-Kadachi had moved onto the node. Then resolve the behaviour as normal. Behaviours with [thunder] gain +1 [damage]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":2,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Remove Leaping Bite from the behaviour deck. Shuffle discarded behaviour cards into the deck." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":1,
+					            "break":4,
+					            "rules": null
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":2,
+					            "break":4,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [paralysis] inflict -1 [damage]." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Medium" } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Pelt" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Scale" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Electro Sac" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Electrode" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Membrane" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Keenbone" } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Claw" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Medium" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Thunder Sac" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Keenbone" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Electrode" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        }
+					    ]
+					},
                     "difficulty":2,
                     "time-limit":35,
                     "scoutfly-level":{
@@ -1203,6 +1611,109 @@
                     ],
                     "difficulty":3,
                     "time-limit":35,
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Fanged Wyvern" } ],
+					    "hitpoints": 70,
+					    "resistance": {
+					        "fire":2,
+					        "water":1,
+					        "thunder":-1,
+					        "ice":2,
+					        "dragon":-1,
+					        "paralysis":2,
+					        "poison":1,
+					        "sleep":2,
+					        "blastblight":2,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Static Charge" } ],
+					        "rules": [ { "language":"en-US", "text":"When you determine Tobi-Kadachi's target for a [thunder] behaviour remove Tobi-Kadachi from the board. Place Tobi-Kadachi on the farthest rock node from its current node without changing its facing. If there are multiple farthest rock nodes, the players choose. Move any hunters on that node as if Tobi-Kadachi had moved onto the node. Then resolve the behaviour as normal. Behaviours with [thunder] gain +2 [damage]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":2,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Remove Leaping Bite from the behaviour deck. Shuffle discarded behaviour cards into the deck." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":2,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [thunder] inflict -1 [damage]." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":3,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [paralysis] inflict -1 [damage]." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Medium" } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Pelt" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Scale" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Electro Sac" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Electrode" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Membrane" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Keenbone" } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Claw" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Medium" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Thunder Sac" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Keenbone" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Tobi-Kadachi Electrode" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        }
+					    ]
+					},
                     "scoutfly-level":{
                         "min":4,
                         "max":7
@@ -1305,6 +1816,121 @@
                             "text":"Quête Assignée"
                         }
                     ],
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Fanged Wyvern" } ],
+					    "hitpoints": 65,
+					    "resistance": {
+					        "fire":-1,
+					        "water":1,
+					        "thunder":2,
+					        "ice":2,
+					        "dragon":-1,
+					        "paralysis":2,
+					        "poison":2,
+					        "sleep":2,
+					        "blastblight":-1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Reckless Aggression" } ],
+					        "rules": [ { "language":"en-US", "text":"Each time this monster suffers 4 or more damage from an attack card, after the attack is resolved the monster moves 2 nodes toward [far]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":2,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [fire] inflict -1 [damage]." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "front":true,
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":2,
+					            "break":5,
+					            "rules": null
+					        },
+					        {
+					            "part": "legs",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":2,
+					            "break":4,
+					            "rules": [ { "language":"en-US", "text":"Remove Crush from the behaviour deck. Shuffle discarded behaviour cards into the deck." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":1,
+					            "break":4,
+					            "rules": null
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Scale" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [legs] were broken." } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Pelt" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Nosebone" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Tail" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Fang" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Keenbone" } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Flame Sac" } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Pelt" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Flame Sac" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Inferno Sac" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        }
+					    ]
+					},
                     "difficulty":1,
                     "time-limit":35,
                     "scoutfly-level":{
