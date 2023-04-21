@@ -1817,7 +1817,7 @@
                         }
                     ],
                     "physiology": {
-					    "monster-type": [ { "language":"en-US", "text":"Fanged Wyvern" } ],
+					    "monster-type": [ { "language":"en-US", "text":"Brute Wyvern" } ],
 					    "hitpoints": 65,
 					    "resistance": {
 					        "fire":-1,
