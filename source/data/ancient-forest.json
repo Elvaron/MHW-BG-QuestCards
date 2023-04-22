@@ -540,53 +540,2135 @@
             "rage-deck":null
         },
         {
-        	"monster-id":"tobi-kadachi",
-        	"base-deck": [        		
-        	],
-        	"special": null,
-        	"track-deck":{
-                "less-or-equal-minimum": null,
-                "above-minimum-below-maximum": null,
-                "greater-or-equal-maximum": null
-            },
-            "rage-deck":null
-        },
+		    "monster-id":"tobi-kadachi",
+		    "base-deck":[
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Tail Spark"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 567/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":1
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "left":true,
+		                        "right":true
+		                    },
+		                    "range":1,
+		                    "dodge":4,
+		                    "damage":7,
+		                    "element":"thunder"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":3
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Tail Slash"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 566/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":3
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":1,
+		                    "dodge":4,
+		                    "damage":6,
+		                    "element":"thunder"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Tail Shock Pulse"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 565/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":2
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":2,
+		                    "dodge":4,
+		                    "damage":6,
+		                    "element":"physical",
+		                    "status-ailment":"paralysis"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Tail Spin"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 577/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":2,
+		                    "dodge":4,
+		                    "damage":7,
+		                    "element":"physical",
+		                    "status-ailment":"paralysis"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":0
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Gliding Tail Slam"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 563/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":1,
+		                    "dodge":4,
+		                    "damage":6,
+		                    "element":"thunder"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":3
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Tail Swing"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 562/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":2
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":7,
+		                    "element":"physical",
+		                    "status-ailment":"paralysis"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Backslash Swoop"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 561/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"body",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true
+		                    },
+		                    "range":2,
+		                    "dodge":4,
+		                    "damage":7,
+		                    "element":"thunder"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "back":1
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Backflip Slam"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 560/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"body",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "left":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":2,
+		                    "dodge":4,
+		                    "damage":6,
+		                    "element":"thunder"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":1
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":4,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Rapid Bite"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 559/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":6,
+		                    "element":"physical"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Leaping Bite"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 558/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":3
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":2,
+		                    "dodge":3,
+		                    "damage":7,
+		                    "element":"physical"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        }
+		    ],
+		    "special":null,
+		    "track-deck":{
+		        "less-or-equal-minimum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Front Flip Slam"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 568/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"body",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true
+		                    },
+		                    "range":2,
+		                    "dodge":4,
+		                    "damage":6,
+		                    "element":"thunder"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "back":1
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        "above-minimum-below-maximum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Leap Quick Bite"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 569/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":3
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":2,
+		                    "dodge":3,
+		                    "damage":6,
+		                    "element":"physical"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":3
+		            }
+		        },
+		        "greater-or-equal-maximum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Gliding Tail Cleave"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 570/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true,
+		                        "left":true,
+		                        "back":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":5,
+		                    "element":"thunder"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        }
+		    },
+		    "rage-deck":null
+		},
         {
-        	"monster-id":"azure-rathalos",
-        	"base-deck": [        		
-        	],
-        	"special": null,
-        	"track-deck":{
-                "less-or-equal-minimum": null,
-                "above-minimum-below-maximum": null,
-                "greater-or-equal-maximum": null
-            },
-            "rage-deck":null
-        },
+		    "monster-id":"azure-rathalos",
+		    "base-deck":[
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Right Flame Burst"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 606/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "left":3
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true
+		                    },
+		                    "range":2,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"fire"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Fire Spray"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 605/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":3,
+		                    "dodge":6,
+		                    "damage":8,
+		                    "element":"fire"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":3
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Left Flame Burst"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 591/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true
+		                    },
+		                    "range":2,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"fire"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "right":3
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Claw Drop"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 603/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"wings",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":1,
+		                    "dodge":6,
+		                    "damage":8,
+		                    "element":"physical",
+		                    "status-ailment":"poison"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Swooping Evade"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 602/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"wings",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":5
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true,
+		                        "left":true
+		                    },
+		                    "range":2,
+		                    "dodge":5,
+		                    "damage":8,
+		                    "element":"fire"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":3
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Take Off Blast"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 601/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"wings",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true,
+		                        "left":true
+		                    },
+		                    "range":2,
+		                    "dodge":6,
+		                    "damage":8,
+		                    "element":"fire"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "back":4
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Retreating Sweep"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 600/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"wings",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true,
+		                        "left":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"physical"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "back":3
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":3
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Talon Charge"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 599/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"body",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"physical",
+		                    "status-ailment":"poison"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Tackle"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 598/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"body",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":5
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true
+		                    },
+		                    "range":1,
+		                    "dodge":6,
+		                    "damage":8,
+		                    "element":"physical",
+		                    "status-ailment":"stun"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":3
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Tail Swing"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 597/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true,
+		                        "left":true,
+		                        "back":true
+		                    },
+		                    "range":2,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"physical",
+		                    "status-ailment":"stun"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        }
+		    ],
+		    "special":null,
+		    "track-deck":{
+		        "less-or-equal-minimum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Fire Spin"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 607/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true
+		                    },
+		                    "range":2,
+		                    "dodge":4,
+		                    "damage":10,
+		                    "element":"fire"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":5
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        },
+		        "above-minimum-below-maximum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Fireball"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 608/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"node",
+		                    "range":4,
+		                    "dodge":6,
+		                    "damage":9,
+		                    "element":"fire"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        "greater-or-equal-maximum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Talon Dive"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 609/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"wings",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true,
+		                        "left":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"physical",
+		                    "status-ailment":"poison"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":3
+		            }
+		        }
+		    },
+		    "rage-deck":null
+		},
         {
-        	"monster-id":"anjanath",
-        	"base-deck": [        		
-        	],
-        	"special": null,
-        	"track-deck":{
-                "less-or-equal-minimum": null,
-                "above-minimum-below-maximum": null,
-                "greater-or-equal-maximum": null
-            },
-            "rage-deck":null
-        },
+		    "monster-id":"anjanath",
+		    "base-deck":[
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Flame Jet"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 580/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":2
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":3,
+		                    "dodge":5,
+		                    "damage":8,
+		                    "element":"fire"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Flame Spray"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 579/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true
+		                    },
+		                    "range":3,
+		                    "dodge":4,
+		                    "damage":7,
+		                    "element":"fire"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "back":1
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":3
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Bite"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 578/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":3
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":8,
+		                    "element":"physical"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Fire Snort"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 577/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":3
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":7,
+		                    "element":"fire"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Head Plunge"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 576/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":8,
+		                    "element":"physical",
+		                    "status-ailment":"stun"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Crush"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 575/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"legs",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":2,
+		                    "dodge":5,
+		                    "damage":8,
+		                    "element":"physical",
+		                    "status-ailment":"stun"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "back":1
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":4,
+		                "cards":1
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Charge"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 574/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"legs",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"physical"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":3
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Slam"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 573/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"body",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":3
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":8,
+		                    "element":"physical",
+		                    "status-ailment":"stun"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Bludgeon"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 572/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"body",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "left":2
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "back":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":7,
+		                    "element":"physical"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Tail Swing"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 571/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":1
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":2,
+		                    "dodge":5,
+		                    "damage":7,
+		                    "element":"physical"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":3
+		            }
+		        }
+		    ],
+		    "special":null,
+		    "track-deck":{
+		        "less-or-equal-minimum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Crushing Charge"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 581/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"legs",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"physical",
+		                    "status-ailment":"stun"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        },
+		        "above-minimum-below-maximum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Deadly Bludgeon"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 582/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"body",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":8,
+		                    "element":"physical"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "right":2
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":3
+		            }
+		        },
+		        "greater-or-equal-maximum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Right Flame Spray"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 583/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":2
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true
+		                    },
+		                    "range":3,
+		                    "dodge":4,
+		                    "damage":7,
+		                    "element":"fire"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        }
+		    },
+		    "rage-deck":null
+		},
         {
-        	"monster-id":"rathalos",
-        	"base-deck": [        		
-        	],
-        	"special": null,
-        	"track-deck":{
-                "less-or-equal-minimum": null,
-                "above-minimum-below-maximum": null,
-                "greater-or-equal-maximum": null
-            },
-            "rage-deck":null
-        }
+		    "monster-id":"rathalos",
+		    "base-deck":[
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Flame Burst"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 593/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":3
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true
+		                    },
+		                    "range":2,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"fire"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Flamethrower"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 592/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":1
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":3,
+		                    "dodge":4,
+		                    "damage":8,
+		                    "element":"fire"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Fire Spin"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 591/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true
+		                    },
+		                    "range":2,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"fire"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":3
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Claw Drop"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 590/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"wings",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":8,
+		                    "element":"physical",
+		                    "status-ailment":"poison"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Swooping Evade"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 589/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"wings",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":10,
+		                    "element":"physical"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "left":2
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":3
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Take Off Blast"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 588/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"wings",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true
+		                    },
+		                    "range":3,
+		                    "dodge":5,
+		                    "damage":8,
+		                    "element":"fire"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "back":1
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Flying Fire Ball"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 587/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"wings",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "right":2
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"node",
+		                    "range":5,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"fire"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":3,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Raging Charge"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 586/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"body",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":5
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"node",
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"physical",
+		                    "status-ailment":"stun"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Tackle"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 585/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"body",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":3
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true
+		                    },
+		                    "range":1,
+		                    "dodge":4,
+		                    "damage":9,
+		                    "element":"physical",
+		                    "status-ailment":"stun"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":2
+		            }
+		        },
+		        {
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Tail Swing"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 584/632"
+		                }
+		            ],
+		            "target":"close",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "right":true,
+		                        "left":true,
+		                        "back":true
+		                    },
+		                    "range":2,
+		                    "dodge":4,
+		                    "damage":8,
+		                    "element":"physical",
+		                    "status-ailment":"stun"
+		                },
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":0
+		                    }
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        }
+		    ],
+		    "special":null,
+		    "track-deck":{
+		        "less-or-equal-minimum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Stunning Spin"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 594/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"tail",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "left":true,
+		                        "right":true,
+		                        "back":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":8,
+		                    "element":"physical",
+		                    "status-ailment":"stun"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":2
+		            }
+		        },
+		        "above-minimum-below-maximum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Molten Bite"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 595/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"head",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"node",
+		                    "range":2,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"fire"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":2,
+		                "cards":3
+		            }
+		        },
+		        "greater-or-equal-maximum":{
+		            "name":[
+		                {
+		                    "language":"en-US",
+		                    "text":"Charging Swoop"
+		                }
+		            ],
+		            "index":[
+		                {
+		                    "language":"en-US",
+		                    "text":"MHW:AF 596/632"
+		                }
+		            ],
+		            "target":"far",
+		            "part":"wings",
+		            "actions":[
+		                {
+		                    "type":"move",
+		                    "movement":{
+		                        "front":4
+		                    }
+		                },
+		                {
+		                    "type":"attack",
+		                    "targeting":"arc",
+		                    "arc":{
+		                        "front":true,
+		                        "right":true,
+		                        "left":true
+		                    },
+		                    "range":1,
+		                    "dodge":5,
+		                    "damage":9,
+		                    "element":"physical"
+		                }
+		            ],
+		            "activation":{
+		                "hunters":1,
+		                "cards":2
+		            }
+		        }
+		    },
+		    "rage-deck":null
+		}
     ],
     "quest-books":[
         {
@@ -2024,6 +4106,121 @@
                     ],
                     "difficulty":2,
                     "time-limit":35,
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Brute Wyvern" } ],
+					    "hitpoints": 70,
+					    "resistance": {
+					        "fire":-1,
+					        "water":1,
+					        "thunder":2,
+					        "ice":2,
+					        "dragon":-1,
+					        "paralysis":2,
+					        "poison":2,
+					        "sleep":2,
+					        "blastblight":-1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Flaming Anger" } ],
+					        "rules": [ { "language":"en-US", "text":"Each time this monster suffers 4 or more damage from an attack card, after the attack is resolved the monster moves 2 nodes towards [far]. Behaviours with [fire] gain +1 [damage]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":2,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [fire] inflict -1 [damage]." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "front":true,
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":3,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Discard the top card of the monster's behaviour deck." } ]
+					        },
+					        {
+					            "part": "legs",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":2,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Remove Crush from the behaviour deck. Shuffle discarded behaviour cards into the deck." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":2,
+					            "break":5,
+					            "rules": null
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Scale" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [legs] were broken." } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Pelt" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Nosebone" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Tail" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Fang" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Keenbone" } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Flame Sac" } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Pelt" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Flame Sac" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Inferno Sac" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        }
+					    ]
+					},
                     "scoutfly-level":{
                         "min":3,
                         "max":6
@@ -2128,6 +4325,121 @@
                     ],
                     "difficulty":3,
                     "time-limit":35,
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Brute Wyvern" } ],
+					    "hitpoints": 75,
+					    "resistance": {
+					        "fire":-1,
+					        "water":1,
+					        "thunder":2,
+					        "ice":2,
+					        "dragon":-1,
+					        "paralysis":2,
+					        "poison":2,
+					        "sleep":2,
+					        "blastblight":-1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Burning Wrath" } ],
+					        "rules": [ { "language":"en-US", "text":"Each time this monster suffers 4 or more damage from an attack card, after the attack is resolved the monster moves 2 nodes towards [far]. Behaviours with [fire] gain +1 [damage] and +1 [dodge]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":2,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [fire] inflict -1 [damage]." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "front":true,
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":3,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Discard the top card of the monster's behaviour deck." } ]
+					        },
+					        {
+					            "part": "legs",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":3,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Remove Crush from the behaviour deck. Shuffle discarded behaviour cards into the deck." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":2,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [tail] have -1 [range]." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Scale" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [legs] were broken." } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Pelt" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Nosebone" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Tail" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Fang" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Keenbone" } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Flame Sac" } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Anjanath Pelt" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Flame Sac" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Inferno Sac" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        }
+					    ]
+					},
                     "scoutfly-level":{
                         "min":4,
                         "max":7
@@ -2232,6 +4544,120 @@
                     ],
                     "difficulty":1,
                     "time-limit":40,
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Flying Wyvern" } ],
+					    "hitpoints": 80,
+					    "resistance": {
+					        "fire":-1,
+					        "water":-1,
+					        "thunder":2,
+					        "ice":-1,
+					        "dragon":1,
+					        "paralysis":2,
+					        "poison":-1,
+					        "sleep":2,
+					        "blastblight":-1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Chaotic Rage" } ],
+					        "rules": [ { "language":"en-US", "text":"When this monster has 35 health or less, remove the card with [tracking] from the behaviour deck. Then randomly add 1 of the 3 Rathalos behaviour cards with [tracking] into this monster's behaviour deck. Shuffle discarded behaviour cards into the deck." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":3,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [fire] have -1 [range]." } ]
+					        },
+					        {
+					            "part": "wings",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":3,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Remove Take Off Blast from the behaviour deck. Shuffle discarded behaviour cards into the deck." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":4,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [body] gain +1 [hunter-attack-cards] and +1 [hunter-turns]." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":3,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Discard the top card of the monster's behaviour deck." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Wingtalon" } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Scale" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Webbing" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Tail" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Marrow" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Plate" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Wing" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [wings] were broken." } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Carapace" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Shell" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Medulla" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Inferno Sac" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        }
+					    ]
+					},
                     "scoutfly-level":{
                         "min":2,
                         "max":5
@@ -2333,6 +4759,120 @@
                     ],
                     "difficulty":2,
                     "time-limit":40,
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Flying Wyvern" } ],
+					    "hitpoints": 85,
+					    "resistance": {
+					        "fire":-1,
+					        "water":-1,
+					        "thunder":2,
+					        "ice":-1,
+					        "dragon":1,
+					        "paralysis":2,
+					        "poison":-1,
+					        "sleep":2,
+					        "blastblight":-1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Burning Rage" } ],
+					        "rules": [ { "language":"en-US", "text":"When this monster has 50 health or less, randomly add 1 additional Rathalos behaviour card with [tracking] into this monster's behaviour deck. Shuffle discarded behaviour cards into the deck. Behaviours with [fire] gian +1 [damage]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":3,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [fire] have -1 [range]." } ]
+					        },
+					        {
+					            "part": "wings",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":4,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Remove Take Off Blast from the behaviour deck. Shuffle discarded behaviour cards into the deck." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":4,
+					            "break":7,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [body] gain +1 [hunter-attack-cards] and +1 [hunter-turns]." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":3,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Discard the top card of the monster's behaviour deck." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Wingtalon" } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Scale" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Webbing" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Tail" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Marrow" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Plate" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Wing" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [wings] were broken." } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Carapace" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Shell" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Medulla" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Inferno Sac" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        }
+					    ]
+					},
                     "scoutfly-level":{
                         "min":3,
                         "max":6
@@ -2437,6 +4977,120 @@
                     ],
                     "difficulty":4,
                     "time-limit":45,
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Flying Wyvern" } ],
+					    "hitpoints": 90,
+					    "resistance": {
+					        "fire":-1,
+					        "water":-1,
+					        "thunder":2,
+					        "ice":-1,
+					        "dragon":1,
+					        "paralysis":2,
+					        "poison":-1,
+					        "sleep":2,
+					        "blastblight":-1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"King of the Skies" } ],
+					        "rules": [ { "language":"en-US", "text":"When this monster has 55 health or less, add the remaining 2 Rathalos behaviour card with [tracking] into this monster's behaviour deck. Shuffle discarded behaviour cards into the deck. Behaviours with [fire] gian +1 [damage] and +1 [dodge]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":4,
+					            "break":7,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [fire] have -1 [range]." } ]
+					        },
+					        {
+					            "part": "wings",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":4,
+					            "break":7,
+					            "rules": [ { "language":"en-US", "text":"Remove Take Off Blast from the behaviour deck. Shuffle discarded behaviour cards into the deck." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":5,
+					            "break":7,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [body] gain +1 [hunter-attack-cards] and +1 [hunter-turns]." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":4,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Discard the top card of the monster's behaviour deck." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Wingtalon" } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Scale" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Webbing" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Tail" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Marrow" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Plate" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Wing" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [wings] were broken." } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Carapace" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Shell" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Rathalos Medulla" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Inferno Sac" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        }
+					    ]
+					},
                     "scoutfly-level":{
                         "min":4,
                         "max":7
@@ -2546,6 +5200,120 @@
                     ],
                     "difficulty":1,
                     "time-limit":40,
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Flying Wyvern" } ],
+					    "hitpoints": 80,
+					    "resistance": {
+					        "fire":-1,
+					        "water":-1,
+					        "thunder":-1,
+					        "ice":2,
+					        "dragon":1,
+					        "paralysis":2,
+					        "poison":-1,
+					        "sleep":2,
+					        "blastblight":-1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Fleeting Instinct" } ],
+					        "rules": [ { "language":"en-US", "text":"Each time this monster suffers damage from an attack card, after the attack is resolved the monster moves 1 node away from [close]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":3,
+					            "break":5,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [fire] have -1 [range]." } ]
+					        },
+					        {
+					            "part": "wings",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":3,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [wings] gain +1 [hunter-turns]." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":4,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Fleeting Instinct moves the monster 2 nodes rather than 1." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":3,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [tail] have -1 [range]." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Wingtalon" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [wings] were broken." } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Scale" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Wing" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Plate" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Marrow" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Tail" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Carapace" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Wingtalon" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Carapace" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Tail" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Inferno Sac" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        }
+					    ]
+					},
                     "scoutfly-level":{
                         "min":2,
                         "max":5
@@ -2647,6 +5415,120 @@
                     ],
                     "difficulty":2,
                     "time-limit":40,
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Flying Wyvern" } ],
+					    "hitpoints": 85,
+					    "resistance": {
+					        "fire":-1,
+					        "water":-1,
+					        "thunder":-1,
+					        "ice":2,
+					        "dragon":1,
+					        "paralysis":2,
+					        "poison":-1,
+					        "sleep":2,
+					        "blastblight":-1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Strafing Instinct" } ],
+					        "rules": [ { "language":"en-US", "text":"Each time this monster suffers damage from an attack card, after the attack is resolved the monster moves 1 node away from [close]. Behaviours with [fire] gain +1 [damage]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":3,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [fire] have -1 [range]." } ]
+					        },
+					        {
+					            "part": "wings",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":4,
+					            "break":7,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [wings] gain +1 [hunter-turns]." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":4,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Strafing Instinct moves the monster 2 nodes rather than 1." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":3,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [tail] have -1 [range]." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Wingtalon" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [wings] were broken." } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Scale" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Wing" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Plate" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Marrow" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Tail" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Carapace" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Wingtalon" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Carapace" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Tail" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Inferno Sac" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        }
+					    ]
+					},
                     "scoutfly-level":{
                         "min":3,
                         "max":6
@@ -2751,6 +5633,120 @@
                     ],
                     "difficulty":4,
                     "time-limit":45,
+                    "physiology": {
+					    "monster-type": [ { "language":"en-US", "text":"Flying Wyvern" } ],
+					    "hitpoints": 90,
+					    "resistance": {
+					        "fire":-1,
+					        "water":-1,
+					        "thunder":-1,
+					        "ice":2,
+					        "dragon":1,
+					        "paralysis":2,
+					        "poison":-1,
+					        "sleep":2,
+					        "blastblight":-1,
+					        "stun":2
+					    },
+					    "special": {
+					        "name": [ { "language":"en-US", "text":"Skyfire Instinct" } ],
+					        "rules": [ { "language":"en-US", "text":"Each time this monster suffers damage from an attack card, after the attack is resolved the monster moves 1 node away from [close]. Behaviours gain +1 [damage]." } ]
+					    },
+					    "parts": [
+					        {
+					            "part": "head",
+					            "arc":{
+					                "front":true
+					            },
+					            "armor":4,
+					            "break":6,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [fire] have -1 [range]." } ]
+					        },
+					        {
+					            "part": "wings",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":4,
+					            "break":7,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [wings] gain +1 [hunter-turns]." } ]
+					        },
+					        {
+					            "part": "body",
+					            "arc":{
+					                "left":true,
+					                "right":true
+					            },
+					            "armor":5,
+					            "break":7,
+					            "rules": [ { "language":"en-US", "text":"Skyfire Instinct moves the monster 2 nodes rather than 1." } ]
+					        },
+					        {
+					            "part": "tail",
+					            "arc":{
+					                "back":true
+					            },
+					            "armor":4,
+					            "break":7,
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [tail] have -1 [range]." } ]
+					        }
+					    ],
+					    "rewards": [
+					        {
+					            "number":1,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Wingtalon" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [wings] were broken." } ]
+					        },
+					        {
+					            "number":2,
+					            "item-reward": [ { "language":"en-US", "text":"Monster Bone Large" } ]
+					        },
+					        {
+					            "number":3,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Scale" } ]
+					        },
+					        {
+					            "number":4,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Wing" } ]
+					        },
+					        {
+					            "number":5,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Plate" } ]
+					        },
+					        {
+					            "number":6,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Marrow" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [body] was broken." } ]
+					        },
+					        {
+					            "number":7,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Tail" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [tail] was broken." } ]
+					        },
+					        {
+					            "number":8,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Carapace" } ]
+					        },
+					        {
+					            "number":9,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Wingtalon" } ]
+					        },
+					        {
+					            "number":10,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Carapace" } ]
+					        },
+					        {
+					            "number":11,
+					            "item-reward": [ { "language":"en-US", "text":"Azure Rathalos Tail" } ]
+					        },
+					        {
+					            "number":12,
+					            "item-reward": [ { "language":"en-US", "text":"Inferno Sac" } ],
+					            "break-reward": [ { "language":"en-US", "text":"Gain 1 if the [head] was broken." } ]
+					        }
+					    ]
+					},
                     "scoutfly-level":{
                         "min":4,
                         "max":7

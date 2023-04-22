@@ -1,0 +1,103 @@
+"physiology": {
+    "monster-type": [ { "language":"en-US", "text":"Bird Wyvern" } ],
+    "hitpoints": 60,
+    "resistance": {
+        "fire":2,
+        "water":1,
+        "thunder":2,
+        "ice":-1,
+        "dragon":-1,
+        "paralysis":2,
+        "poison":-1,
+        "sleep":-1,
+        "blastblight":2,
+        "stun":2
+    },
+    "special": {
+        "name": [ { "language":"en-US", "text":"Crude Tools" } ],
+        "rules": [ { "language":"en-US", "text":"After resolving a [claws] behaviour card, Kulu-Ya-Ku gains +2 [defense] on its [head] and [claws] body parts until its next turn." } ]
+    },
+    "parts": [
+        {
+            "part": "head",
+            "arc":{
+                "front":true
+            },
+            "armor":0,
+            "break":3,
+            "rules": null
+        },
+        {
+            "part": "claws",
+            "arc":{
+                "left":true,
+                "right":true
+            },
+            "armor":1,
+            "break":3,
+            "rules": [ { "language":"en-US", "text":"Behaviours with [claws] have -1 [damage]." } ]
+        },
+        {
+            "part": "legs",
+            "arc":{
+                "back":true
+            },
+            "armor":1,
+            "break":4,
+            "rules": null
+        }
+    ],
+    "rewards": [
+        {
+            "number":1,
+            "item-reward": [ { "language":"en-US", "text":"Shoulder Bone" } ]
+        },
+        {
+            "number":2,
+            "item-reward": [ { "language":"en-US", "text":"Kulu-Ya-Ku Plume" } ]
+        },
+        {
+            "number":3,
+            "item-reward": [ { "language":"en-US", "text":"Kulu-Ya-Ku Beak" } ]
+        },
+        {
+            "number":4,
+            "item-reward": [ { "language":"en-US", "text":"Earth Crystal" } ]
+        },
+        {
+            "number":5,
+            "item-reward": [ { "language":"en-US", "text":"Kulu-Ya-Ku Scale" } ]
+        },
+        {
+            "number":6,
+            "item-reward": [ { "language":"en-US", "text":"Kulu-Ya-Ku Hide" } ]
+        },
+        {
+            "number":7,
+            "item-reward": [ { "language":"en-US", "text":"Kulu-Ya-Ku Scale" } ],
+            "break-reward": [ { "language":"en-US", "text":"Gain 1 in addition to Loot Table rolls if [legs] were broken during fight." } ]
+        },
+        {
+            "number":8,
+            "item-reward": [ { "language":"en-US", "text":"Bird Wyvern Gem" } ]
+        },
+        {
+            "number":9,
+            "item-reward": [ { "language":"en-US", "text":"Earth Crystal" } ]
+        },
+        {
+            "number":10,
+            "item-reward": [ { "language":"en-US", "text":"Boulder Bone" } ]
+        },
+        {
+            "number":11,
+            "item-reward": [ { "language":"en-US", "text":"Kulu-Ya-Ku Hide" } ],
+            "break-reward": [ { "language":"en-US", "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight." } ]
+        },
+        {
+            "number":12,
+            "item-reward": [ { "language":"en-US", "text":"Kulu-Ya-Ku Plume" } ],
+            "break-reward": [ { "language":"en-US", "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight." } ]
+        }
+    ]
+},
