@@ -4407,7 +4407,7 @@
                         },
                         "special": {
                             "name": [ { "language":"en-US", "text":"Fiery Presence" } ],
-                            "rules": [ { "language":"en-US", "text":"When a hunter ends their turn in a node adjacent to Teostra, the hunter suffers [blastblight]. If all 12 blackscale dust tokens are on the game board when Teostra begins its turn, resolve the Supernova [supernova] behaviour card instead of drawing a behaviour card. After resolving this behaviour card remove all of the blackscale dust tokens from the board." } ]
+                            "rules": [ { "language":"en-US", "text":"When a hunter ends their turn in a node adjacent to Teostra, the hunter suffers [blast]. If all 12 blackscale dust tokens are on the game board when Teostra begins its turn, resolve the Supernova [supernova] behaviour card instead of drawing a behaviour card. After resolving this behaviour card remove all of the blackscale dust tokens from the board." } ]
                         },
                         "parts": [
                             {
@@ -4613,7 +4613,7 @@
                         },
                         "special": {
                             "name": [ { "language":"en-US", "text":"Fiery Presence" } ],
-                            "rules": [ { "language":"en-US", "text":"When a hunter ends their turn in a node adjacent to Teostra, the hunter suffers [blastblight]. If all 12 blackscale dust tokens are on the game board when Teostra begins its turn, resolve the Supernova [supernova] behaviour card instead of drawing a behaviour card. After resolving this behaviour card remove all of the blackscale dust tokens from the board." } ]
+                            "rules": [ { "language":"en-US", "text":"When a hunter ends their turn in a node adjacent to Teostra, the hunter suffers [blast]. If all 12 blackscale dust tokens are on the game board when Teostra begins its turn, resolve the Supernova [supernova] behaviour card instead of drawing a behaviour card. After resolving this behaviour card remove all of the blackscale dust tokens from the board." } ]
                         },
                         "parts": [
                             {
@@ -4825,7 +4825,7 @@
                         },
                         "special": {
                             "name": [ { "language":"en-US", "text":"Volcanic Presence" } ],
-                            "rules": [ { "language":"en-US", "text":"Behaviours gain +1 [damage]. When a hunter ends their turn in a node adjacent to Teostra, the hunter suffers [blastblight]. If all 12 blackscale dust tokens are on the game board when Teostra begins its turn, resolve the Supernova [supernova] behaviour card instead of drawing a behaviour card. After resolving this behaviour card remove all of the blackscale dust tokens from the board." } ]
+                            "rules": [ { "language":"en-US", "text":"Behaviours gain +1 [damage]. When a hunter ends their turn in a node adjacent to Teostra, the hunter suffers [blast]. If all 12 blackscale dust tokens are on the game board when Teostra begins its turn, resolve the Supernova [supernova] behaviour card instead of drawing a behaviour card. After resolving this behaviour card remove all of the blackscale dust tokens from the board." } ]
                         },
                         "parts": [
                             {
@@ -6769,7 +6769,7 @@
                                 },
                                 "armor":3,
                                 "break":6,
-                                "rules": [ { "language":"en-US", "text":"Behaviours with [head] have +1 [hunter-turns]." } ]
+                                "rules": [ { "language":"en-US", "text":"Behaviours with [head] have +1 [hunter-turn]." } ]
                             },
                             {
                                 "part": "wings",
@@ -6992,7 +6992,7 @@
                                 },
                                 "armor":4,
                                 "break":7,
-                                "rules": [ { "language":"en-US", "text":"Behaviours with [head] have +1 [hunter-turns]." } ]
+                                "rules": [ { "language":"en-US", "text":"Behaviours with [head] have +1 [hunter-turn]." } ]
                             },
                             {
                                 "part": "wings",

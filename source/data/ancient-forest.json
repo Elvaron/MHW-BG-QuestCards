@@ -4591,7 +4591,7 @@
 					            },
 					            "armor":4,
 					            "break":5,
-					            "rules": [ { "language":"en-US", "text":"Behaviours with [body] gain +1 [hunter-attack-cards] and +1 [hunter-turns]." } ]
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [body] gain +1 [hunter-attack-cards] and +1 [hunter-turn]." } ]
 					        },
 					        {
 					            "part": "tail",
@@ -4806,7 +4806,7 @@
 					            },
 					            "armor":4,
 					            "break":7,
-					            "rules": [ { "language":"en-US", "text":"Behaviours with [body] gain +1 [hunter-attack-cards] and +1 [hunter-turns]." } ]
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [body] gain +1 [hunter-attack-cards] and +1 [hunter-turn]." } ]
 					        },
 					        {
 					            "part": "tail",
@@ -5024,7 +5024,7 @@
 					            },
 					            "armor":5,
 					            "break":7,
-					            "rules": [ { "language":"en-US", "text":"Behaviours with [body] gain +1 [hunter-attack-cards] and +1 [hunter-turns]." } ]
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [body] gain +1 [hunter-attack-cards] and +1 [hunter-turn]." } ]
 					        },
 					        {
 					            "part": "tail",
@@ -5237,7 +5237,7 @@
 					            },
 					            "armor":3,
 					            "break":6,
-					            "rules": [ { "language":"en-US", "text":"Behaviours with [wings] gain +1 [hunter-turns]." } ]
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [wings] gain +1 [hunter-turn]." } ]
 					        },
 					        {
 					            "part": "body",
@@ -5452,7 +5452,7 @@
 					            },
 					            "armor":4,
 					            "break":7,
-					            "rules": [ { "language":"en-US", "text":"Behaviours with [wings] gain +1 [hunter-turns]." } ]
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [wings] gain +1 [hunter-turn]." } ]
 					        },
 					        {
 					            "part": "body",
@@ -5670,7 +5670,7 @@
 					            },
 					            "armor":4,
 					            "break":7,
-					            "rules": [ { "language":"en-US", "text":"Behaviours with [wings] gain +1 [hunter-turns]." } ]
+					            "rules": [ { "language":"en-US", "text":"Behaviours with [wings] gain +1 [hunter-turn]." } ]
 					        },
 					        {
 					            "part": "body",
