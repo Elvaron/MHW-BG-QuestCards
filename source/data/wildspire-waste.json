@@ -2681,7 +2681,225 @@
                 {
                     "monster-id":"barroth",
                     "quest-id":"barroth-1",
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Brute Wyvern"
+                            }
+                        ],
+                        "hitpoints":50,
+                        "resistance":{
+                            "fire":-1,
+                            "water":2,
+                            "thunder":-1,
+                            "ice":2,
+                            "dragon":-1,
+                            "paralysis":1,
+                            "poison":1,
+                            "sleep":2,
+                            "blastblight":1,
+                            "stun":-1
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Mud Coating"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"The first time Barroth moves onto a pond node, remove 1 [break-token] from each body part that isn't broken."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":1,
+                                "break":3,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [head] have -1 [move]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"body",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":0,
+                                "break":3,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [water] have -1 [dodge]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":0,
+                                "break":2,
+                                "rules":null
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":0,
+                                "break":2,
+                                "rules":null
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Small"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Ridge"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Small"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Carapace"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [body] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Shell"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Ridge"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -2777,7 +2995,230 @@
                             "text":"Quête Investigation"
                         }
                     ],
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Brute Wyvern"
+                            }
+                        ],
+                        "hitpoints":60,
+                        "resistance":{
+                            "fire":-1,
+                            "water":2,
+                            "thunder":-1,
+                            "ice":2,
+                            "dragon":-1,
+                            "paralysis":1,
+                            "poison":1,
+                            "sleep":2,
+                            "blastblight":1,
+                            "stun":-1
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Mud Cladding"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Each time Barroth moves onto a pond node, remove 1 [break-token] from each body part that isn't broken."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":2,
+                                "break":4,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [head] have -1 [move]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"body",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":1,
+                                "break":4,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [water] have -1 [dodge]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":0,
+                                "break":3,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Discard the top card of the monster's behaviour deck."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":0,
+                                "break":3,
+                                "rules":null
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Small"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Ridge"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Small"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Carapace"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [body] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Shell"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Ridge"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "difficulty":2,
                     "time-limit":30,
                     "scoutfly-level":{
@@ -2875,7 +3316,235 @@
                             "text":"Quête Investigation Avancée"
                         }
                     ],
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Brute Wyvern"
+                            }
+                        ],
+                        "hitpoints":65,
+                        "resistance":{
+                            "fire":-1,
+                            "water":2,
+                            "thunder":-1,
+                            "ice":2,
+                            "dragon":-1,
+                            "paralysis":1,
+                            "poison":1,
+                            "sleep":2,
+                            "blastblight":1,
+                            "stun":-1
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Mud Armour"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Each time Barroth moves onto a pond node, remove 1 [break-token] from each body part that isn't broken. Behaviours gain +1 [damage]."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":3,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [head] have -1 [move]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"body",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":2,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [water] have -1 [dodge]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":1,
+                                "break":4,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Discard the top card of the monster's behaviour deck."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":1,
+                                "break":4,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"The monster no longer removes break tokens when it moves onto a pond node."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Small"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Ridge"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Small"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Carapace"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [body] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Shell"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Ridge"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Barroth Claw"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "difficulty":3,
                     "time-limit":30,
                     "scoutfly-level":{
@@ -2988,7 +3657,204 @@
                             "text":"Quête Assignée"
                         }
                     ],
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Bird Wyvern"
+                            }
+                        ],
+                        "hitpoints":60,
+                        "resistance":{
+                            "fire":2,
+                            "water":-1,
+                            "thunder":1,
+                            "ice":2,
+                            "dragon":-1,
+                            "paralysis":1,
+                            "poison":-1,
+                            "sleep":1,
+                            "blastblight":2,
+                            "stun":2
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Toxic Presence"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"When hunters suffer [poison] from Pukei-Pukei they lose 3 health at the end of their turn instead of 2."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":0,
+                                "break":3,
+                                "rules":null
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":1,
+                                "break":4,
+                                "rules":null
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":1,
+                                "break":3,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [claws] gain +1 [hunter-turns]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Medium"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Wing"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Quill"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Poison Sac"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Tail"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Toxin Sac"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Wing"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Medium"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "difficulty":1,
                     "time-limit":35,
                     "scoutfly-level":{
@@ -3073,7 +3939,209 @@
                             "text":"Quête Investigation"
                         }
                     ],
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Bird Wyvern"
+                            }
+                        ],
+                        "hitpoints":65,
+                        "resistance":{
+                            "fire":2,
+                            "water":-1,
+                            "thunder":1,
+                            "ice":2,
+                            "dragon":-1,
+                            "paralysis":1,
+                            "poison":-1,
+                            "sleep":1,
+                            "blastblight":2,
+                            "stun":2
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Toxic Presence"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"When hunters suffer [poison] from Pukei-Pukei they lose 3 health at the end of their turn instead of 2. Behaviours with [poison] gain +1 [dodge]."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":1,
+                                "break":4,
+                                "rules":null
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":1,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [tail] have -1 [range]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":2,
+                                "break":4,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [claws] gain +1 [hunter-turns]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Medium"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Wing"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Quill"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Poison Sac"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Tail"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Toxin Sac"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Wing"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Medium"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "difficulty":2,
                     "time-limit":35,
                     "scoutfly-level":{
@@ -3178,7 +4246,214 @@
                     ],
                     "difficulty":3,
                     "time-limit":35,
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Bird Wyvern"
+                            }
+                        ],
+                        "hitpoints":70,
+                        "resistance":{
+                            "fire":2,
+                            "water":-1,
+                            "thunder":1,
+                            "ice":2,
+                            "dragon":-1,
+                            "paralysis":1,
+                            "poison":-1,
+                            "sleep":1,
+                            "blastblight":2,
+                            "stun":2
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Toxic Predator"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"When hunters suffer [poison] from Pukei-Pukei they lose 3 health at the end of their turn instead of 2. Behaviours gain +1 [dodge]."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":2,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"[poison] causes hunters to lose 2 health instead of 3."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":2,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [tail] have -1 [range]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":3,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [claws] gain +1 [hunter-turns]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Medium"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Wing"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Quill"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Poison Sac"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Tail"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Toxin Sac"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Wing"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Pukei-Pukei Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Medium"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "scoutfly-level":{
                         "min":4,
                         "max":7
@@ -3289,7 +4564,223 @@
                             "text":"Quête Assignée"
                         }
                     ],
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Piscine Wyvern"
+                            }
+                        ],
+                        "hitpoints":65,
+                        "resistance":{
+                            "fire":-1,
+                            "water":-1,
+                            "thunder":2,
+                            "ice":2,
+                            "dragon":-1,
+                            "paralysis":2,
+                            "poison":2,
+                            "sleep":-1,
+                            "blastblight":-1,
+                            "stun":2
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Mire Dweller"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"While Jyuratodus is on a pond node, behaviours gain +1 [dodge]."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":2,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [head] have -1 [dodge]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":1,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [tail] have -1 [damage]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "left":true
+                                },
+                                "armor":2,
+                                "break":4,
+                                "rules":null
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "right":true
+                                },
+                                "armor":2,
+                                "break":4,
+                                "rules":null
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Fin"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the left [legs] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Aqua Sac"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Large"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Fang"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gajau Scale"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Fin"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the right [legs] was broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "difficulty":1,
                     "time-limit":35,
                     "scoutfly-level":{
@@ -3386,7 +4877,228 @@
                     ],
                     "difficulty":2,
                     "time-limit":35,
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Piscine Wyvern"
+                            }
+                        ],
+                        "hitpoints":70,
+                        "resistance":{
+                            "fire":-1,
+                            "water":-1,
+                            "thunder":2,
+                            "ice":2,
+                            "dragon":-1,
+                            "paralysis":2,
+                            "poison":2,
+                            "sleep":-1,
+                            "blastblight":-1,
+                            "stun":2
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Mire Stalker"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"While Jyuratodus is on a pond node, behaviours gain +1 [damage] and +1 [dodge]."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":2,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [head] have -1 [dodge]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":2,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [tail] have -1 [damage]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "left":true
+                                },
+                                "armor":3,
+                                "break":5,
+                                "rules":null
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "right":true
+                                },
+                                "armor":3,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"This body part has -1 [defense]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Fin"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the left [legs] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Aqua Sac"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Large"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Fang"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gajau Scale"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Fin"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the right [legs] was broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "scoutfly-level":{
                         "min":3,
                         "max":6
@@ -3499,7 +5211,228 @@
                     ],
                     "difficulty":3,
                     "time-limit":35,
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Piscine Wyvern"
+                            }
+                        ],
+                        "hitpoints":75,
+                        "resistance":{
+                            "fire":-1,
+                            "water":-1,
+                            "thunder":2,
+                            "ice":2,
+                            "dragon":-1,
+                            "paralysis":2,
+                            "poison":2,
+                            "sleep":-1,
+                            "blastblight":-1,
+                            "stun":2
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Mire Beast"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"While Jyuratodus is on a pond node, each body part gains +1 [defense] and behaviours gain +1 [damage] and +1 [dodge]."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":3,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [head] have -1 [dodge]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":2,
+                                "break":5,
+                                "rules":null
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "left":true
+                                },
+                                "armor":3,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"This body part has -1 [defense]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "right":true
+                                },
+                                "armor":3,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"This body part has -1 [defense]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Fin"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the left [legs] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Aqua Sac"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Monster Bone Large"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Fang"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gajau Scale"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Scale"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Jyuratodus Fin"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the right [legs] was broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "scoutfly-level":{
                         "min":4,
                         "max":7
@@ -3607,7 +5540,235 @@
                     ],
                     "difficulty":1,
                     "time-limit":40,
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Flying Wyvern"
+                            }
+                        ],
+                        "hitpoints":80,
+                        "resistance":{
+                            "fire":-1,
+                            "water":2,
+                            "thunder":-1,
+                            "ice":1,
+                            "dragon":2,
+                            "paralysis":1,
+                            "poison":2,
+                            "sleep":2,
+                            "blastblight":2,
+                            "stun":-1
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Boundless Charge"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"While performing [head] behaviours, when Diablos moves onto the same node as the hunters those hunters may only move to the node in the centre of Diablos' front arc unless that node isn't available."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":4,
+                                "break":7,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours have -1 [damage]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":3,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [tail] have -1 [range]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":3,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Discard the top card of the monster's behaviour deck."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":3,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [head] have -1 [dodge]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Twisted Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Fang"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Ridge"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Blos Medulla"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Carapace"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [legs] were broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Fang"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Twisted Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Shell"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "scoutfly-level":{
                         "min":2,
                         "max":5
@@ -3712,7 +5873,235 @@
                     ],
                     "difficulty":2,
                     "time-limit":40,
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Flying Wyvern"
+                            }
+                        ],
+                        "hitpoints":85,
+                        "resistance":{
+                            "fire":-1,
+                            "water":2,
+                            "thunder":-1,
+                            "ice":1,
+                            "dragon":2,
+                            "paralysis":1,
+                            "poison":2,
+                            "sleep":2,
+                            "blastblight":2,
+                            "stun":-1
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Primal Charge"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"While performing [head] behaviours, when Diablos moves onto the same node as the hunters those hunters may only move to the node in the centre of Diablos' front arc unless that node isn't available. Behaviours with [head] gain +1 [damage]."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":4,
+                                "break":7,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours have -1 [damage]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":3,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [tail] have -1 [range]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":4,
+                                "break":7,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Discard the top card of the monster's behaviour deck."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":4,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [head] have -1 [move]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Twisted Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Fang"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Ridge"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Blos Medulla"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Carapace"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [legs] were broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Fang"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Twisted Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Shell"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "scoutfly-level":{
                         "min":3,
                         "max":6
@@ -3825,7 +6214,235 @@
                     ],
                     "difficulty":4,
                     "time-limit":45,
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Flying Wyvern"
+                            }
+                        ],
+                        "hitpoints":90,
+                        "resistance":{
+                            "fire":-1,
+                            "water":2,
+                            "thunder":-1,
+                            "ice":1,
+                            "dragon":2,
+                            "paralysis":1,
+                            "poison":2,
+                            "sleep":2,
+                            "blastblight":2,
+                            "stun":-1
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Devastating Charge"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"While performing [head] behaviours, when Diablos moves onto the same node as the hunters those hunters may only move to the node in the centre of Diablos' front arc unless that node isn't available. Behaviours with [head] gain +2 [damage]."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":5,
+                                "break":8,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours have -1 [damage]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":4,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [tail] have -1 [range]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":4,
+                                "break":7,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Discard the top card of the monster's behaviour deck."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":4,
+                                "break":7,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [head] have -1 [move]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Shell"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Twisted Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Fang"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Ridge"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Blos Medulla"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Carapace"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [legs] were broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Fang"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Twisted Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Diablos Shell"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "scoutfly-level":{
                         "min":4,
                         "max":7
@@ -3938,7 +6555,235 @@
                     ],
                     "difficulty":1,
                     "time-limit":40,
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Flying Wyvern"
+                            }
+                        ],
+                        "hitpoints":80,
+                        "resistance":{
+                            "fire":-1,
+                            "water":2,
+                            "thunder":-1,
+                            "ice":1,
+                            "dragon":-1,
+                            "paralysis":1,
+                            "poison":2,
+                            "sleep":2,
+                            "blastblight":2,
+                            "stun":-1
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Delving Wyvern"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"When you determine Black Diablos' target for a [claws] behaviour remove Black Diablos from the board. Place Black Diablos on the same node as its target without changing its facing. Move any hunters on that node as if Black Diablos had moved onto that node. Then resolve the behaviour as normal."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":4,
+                                "break":7,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours have -1 [damage]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":3,
+                                "break":5,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [tail] have -1 [range]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":3,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Remove 1 [claws] card of your choice from the behaviour deck then shuffle the deck."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":3,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"This body part has -1 [defense]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Novacrystal"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Spiral Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Ridge"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Blos Medulla"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Wyvern Gem"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Novacrystal"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Carapace"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [legs] were broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Spiral Horn"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "scoutfly-level":{
                         "min":2,
                         "max":5
@@ -4043,7 +6888,235 @@
                     ],
                     "difficulty":2,
                     "time-limit":40,
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Flying Wyvern"
+                            }
+                        ],
+                        "hitpoints":85,
+                        "resistance":{
+                            "fire":-1,
+                            "water":2,
+                            "thunder":-1,
+                            "ice":1,
+                            "dragon":-1,
+                            "paralysis":1,
+                            "poison":2,
+                            "sleep":2,
+                            "blastblight":2,
+                            "stun":-1
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Tunnelling Wyvern"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"When you determine Black Diablos' target for a [claws] behaviour remove Black Diablos from the board. Place Black Diablos on the same node as its target without changing its facing. Move any hunters on that node as if Black Diablos had moved onto that node. Then resolve the behaviour as normal. Behaviours with [claws] gain +1 [damage]."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":4,
+                                "break":7,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours have -1 [damage]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":3,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [tail] have -1 [range]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":4,
+                                "break":7,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Remove 1 [claws] card of your choice from the behaviour deck then shuffle the deck."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":4,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"This body part has -1 [defense]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Novacrystal"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Spiral Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Ridge"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Blos Medulla"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Wyvern Gem"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Novacrystal"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Carapace"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [legs] were broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Spiral Horn"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "scoutfly-level":{
                         "min":3,
                         "max":6
@@ -4156,7 +7229,235 @@
                     ],
                     "difficulty":4,
                     "time-limit":45,
-                    "physiology":null,
+                    "physiology":{
+                        "monster-type":[
+                            {
+                                "language":"en-US",
+                                "text":"Flying Wyvern"
+                            }
+                        ],
+                        "hitpoints":90,
+                        "resistance":{
+                            "fire":-1,
+                            "water":2,
+                            "thunder":-1,
+                            "ice":1,
+                            "dragon":-1,
+                            "paralysis":1,
+                            "poison":2,
+                            "sleep":2,
+                            "blastblight":2,
+                            "stun":-1
+                        },
+                        "special":{
+                            "name":[
+                                {
+                                    "language":"en-US",
+                                    "text":"Burrowing Wyvern"
+                                }
+                            ],
+                            "rules":[
+                                {
+                                    "language":"en-US",
+                                    "text":"When you determine Black Diablos' target for a [claws] behaviour remove Black Diablos from the board. Place Black Diablos on the same node as its target without changing its facing. Move any hunters on that node as if Black Diablos had moved onto that node. Then resolve the behaviour as normal. Behaviours with [claws] gain +2 [damage]."
+                                }
+                            ]
+                        },
+                        "parts":[
+                            {
+                                "part":"head",
+                                "arc":{
+                                    "front":true
+                                },
+                                "armor":5,
+                                "break":8,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours have -1 [damage]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"tail",
+                                "arc":{
+                                    "back":true
+                                },
+                                "armor":4,
+                                "break":6,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Behaviours with [tail] have -1 [range]."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"claws",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":4,
+                                "break":7,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Remove 1 [claws] card of your choice from the behaviour deck then shuffle the deck."
+                                    }
+                                ]
+                            },
+                            {
+                                "part":"legs",
+                                "arc":{
+                                    "left":true,
+                                    "right":true
+                                },
+                                "armor":4,
+                                "break":7,
+                                "rules":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"This body part has -1 [defense]."
+                                    }
+                                ]
+                            }
+                        ],
+                        "rewards":[
+                            {
+                                "number":1,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Novacrystal"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":2,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":3,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Spiral Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":4,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":5,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Carapace"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":6,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Ridge"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [tail] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":7,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Blos Medulla"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":8,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Wyvern Gem"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":9,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Novacrystal"
+                                    }
+                                ]
+                            },
+                            {
+                                "number":10,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Diablos Carapace"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [legs] were broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":11,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Majestic Horn"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if the [head] was broken during fight."
+                                    }
+                                ]
+                            },
+                            {
+                                "number":12,
+                                "item-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Black Spiral Horn"
+                                    }
+                                ],
+                                "break-reward":[
+                                    {
+                                        "language":"en-US",
+                                        "text":"Gain 1 in addition to Loot Table rolls if [claws] were broken during fight."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
                     "scoutfly-level":{
                         "min":4,
                         "max":7
