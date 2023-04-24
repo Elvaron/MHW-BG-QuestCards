@@ -11,6 +11,12 @@
                 "language":"en-US",
                 "text":"or"
             }
+        ],
+        "abbreviation-page":[
+            {
+                "language":"en-US",
+                "text":"P."
+            }
         ]
     },
     "behavior-decks":[
@@ -7551,7 +7557,7 @@
             "short-name":[
                 {
                     "language":"en-US",
-                    "text":"AF/QB"
+                    "text":"MHW:AF/QB"
                 },
                 {
                     "language":"fr-FR",
@@ -7794,6 +7800,7 @@
                     "starting":[
                         1
                     ],
+                    "page":5,
                     "layout":{
                         "monsters":[
                             {
@@ -8078,6 +8085,7 @@
                         4,
                         5
                     ],
+                    "page":5,
                     "layout":{
                         "monsters":[
                             {
@@ -8372,6 +8380,7 @@
                         4,
                         5
                     ],
+                    "page":5,
                     "layout":{
                         "monsters":[
                             {
@@ -8679,6 +8688,7 @@
                     "starting":[
                         1
                     ],
+                    "page":14,
                     "layout":{
                         "monsters":[
                             {
@@ -8979,6 +8989,7 @@
                         4,
                         5
                     ],
+                    "page":14,
                     "layout":{
                         "monsters":[
                             {
@@ -9294,6 +9305,7 @@
                         4,
                         5
                     ],
+                    "page":14,
                     "layout":{
                         "monsters":[
                             {
@@ -9618,6 +9630,7 @@
                     "starting":[
                         1
                     ],
+                    "page":23,
                     "layout":{
                         "monsters":[
                             {
@@ -9940,6 +9953,7 @@
                         4,
                         5
                     ],
+                    "page":23,
                     "layout":{
                         "monsters":[
                             {
@@ -10277,6 +10291,7 @@
                         4,
                         5
                     ],
+                    "page":23,
                     "layout":{
                         "monsters":[
                             {
@@ -10610,6 +10625,7 @@
                     "starting":[
                         1
                     ],
+                    "page":32,
                     "layout":{
                         "monsters":[
                             {
@@ -10946,6 +10962,7 @@
                         4,
                         5
                     ],
+                    "page":32,
                     "layout":{
                         "monsters":[
                             {
@@ -11282,6 +11299,7 @@
                         4,
                         5
                     ],
+                    "page":32,
                     "layout":{
                         "monsters":[
                             {
@@ -11620,6 +11638,7 @@
                     "starting":[
                         1
                     ],
+                    "page":41,
                     "layout":{
                         "monsters":[
                             {
@@ -11956,6 +11975,7 @@
                         4,
                         5
                     ],
+                    "page":41,
                     "layout":{
                         "monsters":[
                             {
@@ -12292,6 +12312,7 @@
                         4,
                         5
                     ],
+                    "page":41,
                     "layout":{
                         "monsters":[
                             {
@@ -19014,7 +19035,7 @@
             "short-name":[
                 {
                     "language":"en-US",
-                    "text":"WW/QB"
+                    "text":"MHW:WW/QB"
                 }
             ],
             "version":"1",
@@ -19022,6 +19043,7 @@
                 {
                     "monster-id":"barroth",
                     "quest-id":"barroth-1",
+                    "page":5,
                     "physiology":{
                         "monster-type":[
                             {
@@ -19320,6 +19342,7 @@
                 {
                     "monster-id":"barroth",
                     "quest-id":"barroth-2",
+                    "page":5,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -19641,6 +19664,7 @@
                 {
                     "monster-id":"barroth",
                     "quest-id":"barroth-3",
+                    "page":5,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -19982,6 +20006,7 @@
                 {
                     "monster-id":"pukei-pukei",
                     "quest-id":"pukei-pukei-1",
+                    "page":14,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -20264,6 +20289,7 @@
                 {
                     "monster-id":"pukei-pukei",
                     "quest-id":"pukei-pukei-2",
+                    "page":14,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -20569,6 +20595,7 @@
                 {
                     "monster-id":"pukei-pukei",
                     "quest-id":"pukei-pukei-3",
+                    "page":14,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -20889,6 +20916,7 @@
                 {
                     "monster-id":"jyuratodus",
                     "quest-id":"jyuratodus-1",
+                    "page":24,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -21200,6 +21228,7 @@
                 {
                     "monster-id":"jyuratodus",
                     "quest-id":"jyuratodus-2",
+                    "page":24,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -21534,6 +21563,7 @@
                 {
                     "monster-id":"jyuratodus",
                     "quest-id":"jyuratodus-3",
+                    "page":24,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -21863,6 +21893,7 @@
                 {
                     "monster-id":"diablos",
                     "quest-id":"diablos-1",
+                    "page":33,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -22196,6 +22227,7 @@
                 {
                     "monster-id":"diablos",
                     "quest-id":"diablos-2",
+                    "page":33,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -22537,6 +22569,7 @@
                 {
                     "monster-id":"diablos",
                     "quest-id":"diablos-4",
+                    "page":33,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -22878,6 +22911,7 @@
                 {
                     "monster-id":"black-diablos",
                     "quest-id":"black-diablos-1",
+                    "page":41,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -23211,6 +23245,7 @@
                 {
                     "monster-id":"black-diablos",
                     "quest-id":"black-diablos-2",
+                    "page":41,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -23552,6 +23587,7 @@
                 {
                     "monster-id":"black-diablos",
                     "quest-id":"black-diablos-4",
+                    "page":41,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -30503,7 +30539,7 @@
             "short-name":[
                 {
                     "language":"en-US",
-                    "text":"NG/QB"
+                    "text":"MHW:NG/QB"
                 }
             ],
             "version":"1",
@@ -30511,6 +30547,7 @@
                 {
                     "monster-id":"nergigante",
                     "quest-id":"nergigante-1",
+                    "page":20,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -30839,6 +30876,7 @@
                 {
                     "monster-id":"nergigante",
                     "quest-id":"nergigante-2",
+                    "page":20,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -31170,6 +31208,7 @@
                 {
                     "monster-id":"nergigante",
                     "quest-id":"nergigante-5",
+                    "page":20,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -32978,7 +33017,7 @@
             "short-name":[
                 {
                     "language":"en-US",
-                    "text":"TEO/QB"
+                    "text":"MHW:TEO/QB"
                 }
             ],
             "version":"1",
@@ -32986,6 +33025,7 @@
                 {
                     "monster-id":"teostra",
                     "quest-id":"teostra-1",
+                    "page":16,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -33298,6 +33338,7 @@
                 {
                     "monster-id":"teostra",
                     "quest-id":"teostra-2",
+                    "page":16,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -33618,6 +33659,7 @@
                 {
                     "monster-id":"teostra",
                     "quest-id":"teostra-5",
+                    "page":16,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -35431,7 +35473,7 @@
             "short-name":[
                 {
                     "language":"en-US",
-                    "text":"KD/QB"
+                    "text":"MHW:KD/QB"
                 }
             ],
             "version":"1",
@@ -35439,6 +35481,7 @@
                 {
                     "monster-id":"kushala-daora",
                     "quest-id":"kushala-daora-1",
+                    "page":10,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -35772,6 +35815,7 @@
                 {
                     "monster-id":"kushala-daora",
                     "quest-id":"kushala-daora-2",
+                    "page":10,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -36113,6 +36157,7 @@
                 {
                     "monster-id":"kushala-daora",
                     "quest-id":"kushala-daora-5",
+                    "page":10,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -37947,7 +37992,7 @@
             "short-name":[
                 {
                     "language":"en-US",
-                    "text":"KYK/QB"
+                    "text":"MHW:KYK/QB"
                 }
             ],
             "version":"1",
@@ -37955,6 +38000,7 @@
                 {
                     "monster-id":"kulu-ya-ku",
                     "quest-id":"kulu-ya-ku-1",
+                    "page":14,
                     "physiology":{
                         "monster-type":[
                             {
@@ -38257,6 +38303,7 @@
                 {
                     "monster-id":"kulu-ya-ku",
                     "quest-id":"kulu-ya-ku-2",
+                    "page":14,
                     "quest-name":[
                         {
                             "language":"en-US",
@@ -38567,6 +38614,7 @@
                 {
                     "monster-id":"kulu-ya-ku",
                     "quest-id":"kulu-ya-ku-3",
+                    "page":14,
                     "quest-name":[
                         {
                             "language":"en-US",
