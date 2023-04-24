@@ -40170,22 +40170,27 @@
         }
     ],
     "time-card-decks":{
-        "common":[
+        "common-rule-sets":[
             {
-                "language":"en-US",
-                "text":"Flip your hunter token face down."
-            },
-            {
-                "language":"en-US",
-                "text":"Discard 1 attack card from the rightmost slot of your stamina board."
-            },
-            {
-                "language":"en-US",
-                "text":"Discard any number of attack cards from your hand."
-            },
-            {
-                "language":"en-US",
-                "text":"Draw attack cards until there are 5 cards in your hand."
+                "id":"world",
+                "rules":[
+                    {
+                        "language":"en-US",
+                        "text":"Flip your hunter token face down."
+                    },
+                    {
+                        "language":"en-US",
+                        "text":"Discard 1 attack card from the rightmost slot of your stamina board."
+                    },
+                    {
+                        "language":"en-US",
+                        "text":"Discard any number of attack cards from your hand."
+                    },
+                    {
+                        "language":"en-US",
+                        "text":"Draw attack cards until there are 5 cards in your hand."
+                    }
+                ]
             }
         ],
         "decks":[
@@ -40202,6 +40207,7 @@
                         "text":"MHW:AF"
                     }
                 ],
+                "common":"world",
                 "card-limit":632,
                 "cards":[
                     {
@@ -40851,6 +40857,7 @@
                         "text":"MHW:WW"
                     }
                 ],
+                "common":"world",
                 "card-limit":649,
                 "cards":[
                     {
@@ -41500,6 +41507,7 @@
                         "text":"MHW:NG"
                     }
                 ],
+                "common":"world",
                 "card-limit":148,
                 "cards":[
                     {
@@ -41553,6 +41561,7 @@
                         "text":"MHW:TEO"
                     }
                 ],
+                "common":"world",
                 "card-limit":85,
                 "cards":[
                     {
@@ -41606,6 +41615,7 @@
                         "text":"MHW:KYK"
                     }
                 ],
+                "common":"world",
                 "card-limit":81,
                 "cards":[
                     {
@@ -41677,6 +41687,7 @@
                         "text":"MHW:KD"
                     }
                 ],
+                "common":"world",
                 "card-limit":108,
                 "cards":[
                     {
