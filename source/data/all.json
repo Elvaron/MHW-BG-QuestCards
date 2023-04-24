@@ -7589,6 +7589,7 @@
                 }
             ],
             "version":"12368628163438241247",
+            "zone":"ancient-forest",
             "quests":[
                 {
                     "monster-id":"great-jagras",
@@ -19063,6 +19064,7 @@
                 }
             ],
             "version":"1",
+            "zone":"wildspire-waste",
             "quests":[
                 {
                     "monster-id":"barroth",
@@ -30567,6 +30569,7 @@
                 }
             ],
             "version":"1",
+            "zone":"elders-recess",
             "quests":[
                 {
                     "monster-id":"nergigante",
@@ -33045,6 +33048,7 @@
                 }
             ],
             "version":"1",
+            "zone":"elders-recess",
             "quests":[
                 {
                     "monster-id":"teostra",
@@ -35501,6 +35505,7 @@
                 }
             ],
             "version":"1",
+            "zone":"elders-recess",
             "quests":[
                 {
                     "monster-id":"kushala-daora",
@@ -38020,6 +38025,7 @@
                 }
             ],
             "version":"1",
+            "zone":"wildspire-waste",
             "quests":[
                 {
                     "monster-id":"kulu-ya-ku",
