@@ -17,6 +17,30 @@
                 "language":"en-US",
                 "text":"P."
             }
+        ],
+        "scoutfly-level":[
+            {
+                "language":"en-US",
+                "text":"Scoutfly Level"
+            }
+        ],
+        "starting-points":[
+            {
+                "language":"en-US",
+                "text":"Starting Points"
+            }
+        ],
+        "time-limit":[
+            {
+                "language":"en-US",
+                "text":"Time Limit"
+            }
+        ],
+        "time-cards":[
+            {
+                "language":"en-US",
+                "text":"time cards"
+            }
         ]
     },
     "behavior-decks":[
