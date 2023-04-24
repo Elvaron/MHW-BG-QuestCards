@@ -8079,11 +8079,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":3,
-                            "facing":5
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"great-jagras",
+                                "x":4,
+                                "y":3,
+                                "facing":5
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -8370,11 +8373,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":3,
-                            "facing":5
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"great-jagras",
+                                "x":4,
+                                "y":3,
+                                "facing":5
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -8674,11 +8680,14 @@
                         1
                     ],
                     "layout":{
-                        "monster":{
-                            "x":3,
-                            "y":2,
-                            "facing":5
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"tobi-kadachi",
+                                "x":3,
+                                "y":2,
+                                "facing":5
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -8971,11 +8980,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":6,
-                            "y":1,
-                            "facing":6
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"tobi-kadachi",
+                                "x":6,
+                                "y":1,
+                                "facing":6
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -9283,11 +9295,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":3,
-                            "y":1,
-                            "facing":5
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"tobi-kadachi",
+                                "x":3,
+                                "y":1,
+                                "facing":5
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -9604,11 +9619,14 @@
                         1
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":3,
-                            "facing":2
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"anjanath",
+                                "x":4,
+                                "y":3,
+                                "facing":2
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -9923,11 +9941,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":3,
-                            "facing":4
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"anjanath",
+                                "x":4,
+                                "y":3,
+                                "facing":4
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -10257,11 +10278,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":2,
-                            "facing":5
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"anjanath",
+                                "x":4,
+                                "y":2,
+                                "facing":5
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -10587,11 +10611,14 @@
                         1
                     ],
                     "layout":{
-                        "monster":{
-                            "x":5,
-                            "y":2,
-                            "facing":6
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"rathalos",
+                                "x":5,
+                                "y":2,
+                                "facing":6
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -10920,11 +10947,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":3,
-                            "facing":5
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"rathalos",
+                                "x":4,
+                                "y":3,
+                                "facing":5
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -11253,11 +11283,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":3,
-                            "facing":6
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"rathalos",
+                                "x":4,
+                                "y":3,
+                                "facing":6
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -11588,11 +11621,14 @@
                         1
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":3,
-                            "facing":1
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"azure-rathalos",
+                                "x":4,
+                                "y":3,
+                                "facing":1
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -11921,11 +11957,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":3,
-                            "y":4,
-                            "facing":5
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"azure-rathalos",
+                                "x":3,
+                                "y":4,
+                                "facing":5
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -12254,11 +12293,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":3,
-                            "y":3,
-                            "facing":6
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"azure-rathalos",
+                                "x":3,
+                                "y":3,
+                                "facing":6
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -12396,12 +12438,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Great Jagras Claw."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Great Jagras Claw."
+                                }
                             ],
                             "rules":[
                                 {
@@ -12750,12 +12790,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -12798,12 +12836,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 2 time cards."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 2 time cards."
+                                }
                             ],
                             "rules":[
                                 {
@@ -12972,12 +13008,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Great Jagras Claw."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Great Jagras Claw."
+                                }
                             ],
                             "rules":[
                                 {
@@ -13106,12 +13140,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Great Jagras Hide."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Great Jagras Hide."
+                                }
                             ],
                             "rules":[
                                 {
@@ -13254,12 +13286,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Monster Bone medium."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Monster Bone medium."
+                                }
                             ],
                             "rules":[
                                 {
@@ -13342,18 +13372,14 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card. "
-                                    }
-                                ],
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Carbalite ore, and 1 Machalite ore."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card. "
+                                },
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Carbalite ore, and 1 Machalite ore."
+                                }
                             ],
                             "rules":[
                                 {
@@ -13396,12 +13422,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -14136,12 +14160,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Monster Keenbone. "
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Monster Keenbone. "
+                                }
                             ],
                             "rules":[
                                 {
@@ -14250,12 +14272,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Carbalite ore, and 1 Fucium ore. "
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Carbalite ore, and 1 Fucium ore. "
+                                }
                             ],
                             "rules":[
                                 {
@@ -14298,12 +14318,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"If the hunters are playing Investigation 3, progress to entry 31."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"If the hunters are playing Investigation 3, progress to entry 31."
+                                }
                             ],
                             "rules":[
                                 {
@@ -14392,12 +14410,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -14812,12 +14828,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard all but 1 potion."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard all but 1 potion."
+                                }
                             ],
                             "rules":[
                                 {
@@ -14940,12 +14954,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Electro Sac and 1 Warm Pelt."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Electro Sac and 1 Warm Pelt."
+                                }
                             ],
                             "rules":[
                                 {
@@ -15477,12 +15489,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Anjanath Nosebone."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Anjanath Nosebone."
+                                }
                             ],
                             "rules":[
                                 {
@@ -15585,12 +15595,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card and place it to one side of the deck."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card and place it to one side of the deck."
+                                }
                             ],
                             "rules":[
                                 {
@@ -15633,12 +15641,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Gain 1 track token."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Gain 1 track token."
+                                }
                             ],
                             "rules":[
                                 {
@@ -15767,18 +15773,14 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Gain 1 track token. "
-                                    }
-                                ],
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Monster Keenbone, and 1 Quality Bone."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Gain 1 track token. "
+                                },
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Monster Keenbone, and 1 Quality Bone."
+                                }
                             ],
                             "rules":[
                                 {
@@ -15821,18 +15823,14 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card and place it to one side of the deck. "
-                                    }
-                                ],
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter suffers 2 damage."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card and place it to one side of the deck. "
+                                },
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter suffers 2 damage."
+                                }
                             ],
                             "rules":[
                                 {
@@ -15875,12 +15873,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -15997,12 +15993,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -16125,12 +16119,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Coral Crystal, and 1 Dragonvein Crystal."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Coral Crystal, and 1 Dragonvein Crystal."
+                                }
                             ],
                             "rules":[
                                 {
@@ -16159,12 +16151,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -16213,12 +16203,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Monster Bone large."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Monster Bone large."
+                                }
                             ],
                             "rules":[
                                 {
@@ -16261,12 +16249,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 3 time cards."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 3 time cards."
+                                }
                             ],
                             "rules":[
                                 {
@@ -16309,18 +16295,14 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card. Discard 1 potion. "
-                                    }
-                                ],
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"If the hunters cannot discard a potion, each hunter suffers 2 damage."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card. Discard 1 potion. "
+                                },
+                                {
+                                    "language":"en-US",
+                                    "text":"If the hunters cannot discard a potion, each hunter suffers 2 damage."
+                                }
                             ],
                             "rules":[
                                 {
@@ -16383,12 +16365,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Gain 2 track tokens."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Gain 2 track tokens."
+                                }
                             ],
                             "rules":[
                                 {
@@ -23975,12 +23955,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Barroth Claw."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Barroth Claw."
+                                }
                             ],
                             "rules":[
                                 {
@@ -24309,18 +24287,14 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card. "
-                                    }
-                                ],
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Carbalite ore, and 1 Machalite ore."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card. "
+                                },
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Carbalite ore, and 1 Machalite ore."
+                                }
                             ],
                             "rules":[
                                 {
@@ -24537,12 +24511,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 2 time cards."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 2 time cards."
+                                }
                             ],
                             "rules":[
                                 {
@@ -24671,12 +24643,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Monster Bone medium."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Monster Bone medium."
+                                }
                             ],
                             "rules":[
                                 {
@@ -24719,12 +24689,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Barroth Ridge."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Barroth Ridge."
+                                }
                             ],
                             "rules":[
                                 {
@@ -24959,12 +24927,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Barroth Carapace."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Barroth Carapace."
+                                }
                             ],
                             "rules":[
                                 {
@@ -25013,12 +24979,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -25101,12 +25065,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -25575,12 +25537,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard all but 1 potion."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard all but 1 potion."
+                                }
                             ],
                             "rules":[
                                 {
@@ -25775,12 +25735,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"If the hunters are playing Investigation 3, progress to entry 31."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"If the hunters are playing Investigation 3, progress to entry 31."
+                                }
                             ],
                             "rules":[
                                 {
@@ -25863,12 +25821,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Monster Keenbone."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Monster Keenbone."
+                                }
                             ],
                             "rules":[
                                 {
@@ -26381,12 +26337,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"If there are two cards next to the time deck, progress to entry 23."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"If there are two cards next to the time deck, progress to entry 23."
+                                }
                             ],
                             "rules":[
                                 {
@@ -26429,12 +26383,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Pukei-Pukei Sac."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Pukei-Pukei Sac."
+                                }
                             ],
                             "rules":[
                                 {
@@ -26477,12 +26429,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -26651,12 +26601,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Carbalite ore, and 1 Fucium ore. "
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Carbalite ore, and 1 Fucium ore. "
+                                }
                             ],
                             "rules":[
                                 {
@@ -27034,12 +26982,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Jyuratodus Carapace."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Jyuratodus Carapace."
+                                }
                             ],
                             "rules":[
                                 {
@@ -27290,12 +27236,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Gain 1 track token."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Gain 1 track token."
+                                }
                             ],
                             "rules":[
                                 {
@@ -27344,12 +27288,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Gain 2 track tokens."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Gain 2 track tokens."
+                                }
                             ],
                             "rules":[
                                 {
@@ -27492,12 +27434,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card. Discard 1 potion. If the hunters cannot discard a potion, each hunter suffers 2 damage."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card. Discard 1 potion. If the hunters cannot discard a potion, each hunter suffers 2 damage."
+                                }
                             ],
                             "rules":[
                                 {
@@ -27726,12 +27666,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -27794,12 +27732,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Monster Bone large."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Monster Bone large."
+                                }
                             ],
                             "rules":[
                                 {
@@ -27894,12 +27830,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Discard 1 time card."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Discard 1 time card."
+                                }
                             ],
                             "rules":[
                                 {
@@ -29032,12 +28966,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Gain 1 track token."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Gain 1 track token."
+                                }
                             ],
                             "rules":[
                                 {
@@ -29094,12 +29026,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"The hunters gain 1 Diablos Fang each."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"The hunters gain 1 Diablos Fang each."
+                                }
                             ],
                             "rules":[
                                 {
@@ -30129,12 +30059,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Gain 1 track token."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Gain 1 track token."
+                                }
                             ],
                             "rules":[
                                 {
@@ -30163,12 +30091,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Wyvern Gem."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Wyvern Gem."
+                                }
                             ],
                             "rules":[
                                 {
@@ -30337,12 +30263,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Gain 2 track tokens."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Gain 2 track tokens."
+                                }
                             ],
                             "rules":[
                                 {
@@ -30842,11 +30766,14 @@
                         1
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":3,
-                            "facing":4
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"nergigante",
+                                "x":4,
+                                "y":3,
+                                "facing":4
+                            }
+                        ],
                         "players":[
                             {
                                 "x":2,
@@ -31170,11 +31097,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":2,
-                            "y":5,
-                            "facing":3
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"nergigante",
+                                "x":2,
+                                "y":5,
+                                "facing":3
+                            }
+                        ],
                         "players":[
                             {
                                 "x":2,
@@ -31498,11 +31428,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":1,
-                            "y":1,
-                            "facing":4
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"nergigante",
+                                "x":1,
+                                "y":1,
+                                "facing":4
+                            }
+                        ],
                         "players":[
                             {
                                 "x":3,
@@ -31620,13 +31553,13 @@
                                     "prompt":[
                                         {
                                             "language":"en-US",
-                                            "text":"(The group may only choose this option if they have completed the Nergigante\r\nBegin where the beast was last seen."
+                                            "text":"Begin where the beast was last seen."
                                         }
                                     ],
                                     "condition":[
                                         {
                                             "language":"en-US",
-                                            "text":"assigned quest)"
+                                            "text":"(The group may only choose this option if they have completed the Nergigante assigned quest)"
                                         }
                                     ],
                                     "rules":[
@@ -32440,12 +32373,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"All hunters suffer 2 damage."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"All hunters suffer 2 damage."
+                                }
                             ],
                             "rules":[
                                 {
@@ -33289,11 +33220,14 @@
                         1
                     ],
                     "layout":{
-                        "monster":{
-                            "x":5,
-                            "y":2,
-                            "facing":6
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"teostra",
+                                "x":5,
+                                "y":2,
+                                "facing":6
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -33601,11 +33535,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":3,
-                            "facing":5
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"teostra",
+                                "x":4,
+                                "y":3,
+                                "facing":5
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -33918,11 +33855,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":2,
-                            "y":2,
-                            "facing":4
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"teostra",
+                                "x":2,
+                                "y":2,
+                                "facing":4
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -34894,18 +34834,14 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Teostra Mane. "
-                                    }
-                                ],
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"All hunters suffer 2 damage. "
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Teostra Mane. "
+                                },
+                                {
+                                    "language":"en-US",
+                                    "text":"All hunters suffer 2 damage. "
+                                }
                             ],
                             "rules":[
                                 {
@@ -34988,12 +34924,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"All hunters suffer 2 damage."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"All hunters suffer 2 damage."
+                                }
                             ],
                             "rules":[
                                 {
@@ -35760,11 +35694,14 @@
                         1
                     ],
                     "layout":{
-                        "monster":{
-                            "x":2,
-                            "y":5,
-                            "facing":3
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"kushala-daora",
+                                "x":2,
+                                "y":5,
+                                "facing":3
+                            }
+                        ],
                         "players":[
                             {
                                 "x":2,
@@ -36093,11 +36030,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":1,
-                            "y":1,
-                            "facing":3
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"kushala-daora",
+                                "x":1,
+                                "y":1,
+                                "facing":3
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -36431,11 +36371,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":4,
-                            "y":3,
-                            "facing":2
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"kushala-daora",
+                                "x":4,
+                                "y":3,
+                                "facing":2
+                            }
+                        ],
                         "players":[
                             {
                                 "x":2,
@@ -36907,12 +36850,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter that doesn\u2019t have [ice] resistance suffers 1 damage. "
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter that doesn\u2019t have [ice] resistance suffers 1 damage. "
+                                }
                             ],
                             "rules":[
                                 {
@@ -38548,11 +38489,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":5,
-                            "y":2,
-                            "facing":2
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"kulu-ya-ku",
+                                "x":5,
+                                "y":2,
+                                "facing":2
+                            }
+                        ],
                         "players":[
                             {
                                 "x":1,
@@ -38860,11 +38804,14 @@
                         5
                     ],
                     "layout":{
-                        "monster":{
-                            "x":3,
-                            "y":2,
-                            "facing":7
-                        },
+                        "monsters":[
+                            {
+                                "monster-id":"kulu-ya-ku",
+                                "x":3,
+                                "y":2,
+                                "facing":7
+                            }
+                        ],
                         "players":[
                             {
                                 "x":2,
@@ -39821,12 +39768,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"Each hunter gains 1 Kulu-Ya-Ku Plume."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"Each hunter gains 1 Kulu-Ya-Ku Plume."
+                                }
                             ],
                             "rules":[
                                 {
@@ -40079,12 +40024,10 @@
                                 }
                             ],
                             "consequences":[
-                                [
-                                    {
-                                        "language":"en-US",
-                                        "text":"All hunters suffer 2 damage."
-                                    }
-                                ]
+                                {
+                                    "language":"en-US",
+                                    "text":"All hunters suffer 2 damage."
+                                }
                             ],
                             "rules":[
                                 {
